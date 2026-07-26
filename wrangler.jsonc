@@ -7,13 +7,8 @@
   },
   "assets": {
     "directory": ".",
-    "exclude": [
-      ".git/**",
-      ".gitignore",
-      ".gitattributes",
-      ".wranglerignore",
-      "wrangler.jsonc",
-      "README.md"
-    ]
+    "not_found_response": "404.html",
+    "html_handling": "auto-trailing-slash",
+    "pretty_urls": true
   }
 }
