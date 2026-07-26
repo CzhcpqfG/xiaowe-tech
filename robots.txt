@@ -1,0 +1,61 @@
+# 小维健康科技 - robots.txt
+# 允许所有搜索引擎与 AI 爬虫抓取, 仅禁止登录/注册等低价值页
+
+# 通用爬虫规则
+User-agent: *
+Allow: /
+Disallow: /zh-CN/login
+Disallow: /zh-CN/register
+Disallow: /zh-TW/login
+Disallow: /zh-TW/register
+Disallow: /en/login
+Disallow: /en/register
+
+# AI 搜索引擎友好 (允许所有主流 AI 爬虫)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Doubao
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# 站点地图
+Sitemap: https://www.bigsound.cc/sitemap.xml

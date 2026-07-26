@@ -1,0 +1,21 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "大声助听器",
+  "name_for_model": "bigsound_hearing_aid",
+  "description_for_human": "大声助听器（Bigsound）官方助手 — 提供AI中文助听器产品信息、听力服务中心预约、招商加盟咨询、常见问题解答。",
+  "description_for_model": "Official Bigsound hearing aid assistant. Provides information about AI Chinese hearing aid products (12 models across 4 form factors: behind-ear, in-ear, neck-hung, bone-conduction), hearing service center booking, franchise partnership inquiry, and FAQ. Bigsound is a brand of Xiaowei Health Technology (Shenzhen) Co., Ltd., a Skyworth Group subsidiary. Medical device registration: 粤械注准20232192086. Service hotline: 400-116-9566.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.bigsound.cc/.well-known/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://www.bigsound.cc/images/common/apple-touch-icon.png",
+  "contact_email": "service@dasound.cn",
+  "legal_info_url": "https://www.bigsound.cc/zh-CN/invest#contact",
+  "homepage_url": "https://www.bigsound.cc/zh-CN/",
+  "privacy_policy_url": "https://www.bigsound.cc/zh-CN/about",
+  "terms_of_service_url": "https://www.bigsound.cc/zh-CN/about"
+}

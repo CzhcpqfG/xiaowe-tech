@@ -1,0 +1,4 @@
+Contact: mailto:service@dasound.cn
+Contact: tel:+86-400-116-9566
+Preferred-Languages: zh-CN, zh-TW, en
+Canonical: https://www.bigsound.cc/.well-known/security.txt

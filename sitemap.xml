@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- 首页 - 三语种 + x-default -->
+  <url>
+    <loc>https://www.bigsound.cc/zh-CN/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/zh-TW/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/en/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/" />
+  </url>
+
+  <!-- 关于小维 -->
+  <url>
+    <loc>https://www.bigsound.cc/zh-CN/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/about" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/about" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/zh-TW/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/about" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/about" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/en/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/about" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/about" />
+  </url>
+
+  <!-- AI 中文助听器 -->
+  <url>
+    <loc>https://www.bigsound.cc/zh-CN/product</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/product" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/product" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/product" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/product" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/zh-TW/product</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/product" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/product" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/product" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/product" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/en/product</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/product" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/product" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/product" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/product" />
+  </url>
+
+  <!-- 健康智能穿戴 -->
+  <url>
+    <loc>https://www.bigsound.cc/zh-CN/wearable</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/wearable" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/wearable" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/wearable" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/wearable" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/zh-TW/wearable</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/wearable" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/wearable" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/wearable" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/wearable" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/en/wearable</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/wearable" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/wearable" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/wearable" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/wearable" />
+  </url>
+
+  <!-- 招商加盟 -->
+  <url>
+    <loc>https://www.bigsound.cc/zh-CN/invest</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/invest" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/invest" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/invest" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/invest" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/zh-TW/invest</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/invest" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/invest" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/invest" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/invest" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/en/invest</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/invest" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/invest" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/invest" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/invest" />
+  </url>
+
+  <!-- 人才招聘 -->
+  <url>
+    <loc>https://www.bigsound.cc/zh-CN/careers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/careers" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/careers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/careers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/careers" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/zh-TW/careers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/careers" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/careers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/careers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/careers" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/en/careers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/careers" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/careers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/careers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/careers" />
+  </url>
+
+  <!-- 资讯中心 -->
+  <url>
+    <loc>https://www.bigsound.cc/zh-CN/news</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/news" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/news" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/news" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/news" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/zh-TW/news</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/news" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/news" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/news" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/news" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/en/news</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/news" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/news" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/news" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/news" />
+  </url>
+
+  <!-- 常见问题 FAQ -->
+  <url>
+    <loc>https://www.bigsound.cc/zh-CN/faq</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/faq" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/zh-TW/faq</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/faq" />
+  </url>
+  <url>
+    <loc>https://www.bigsound.cc/en/faq</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.bigsound.cc/zh-CN/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.bigsound.cc/zh-TW/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bigsound.cc/en/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bigsound.cc/zh-CN/faq" />
+  </url>
+
+</urlset>
