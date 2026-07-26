@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "xiaowe-tech",
+  "compatibility_date": "2026-07-26",
+  "observability": {
+    "enabled": false
+  },
+  "assets": {
+    "directory": ".",
+    "exclude": [
+      ".git/**",
+      ".gitignore",
+      ".gitattributes",
+      ".wranglerignore",
+      "wrangler.jsonc",
+      "README.md"
+    ]
+  }
+}

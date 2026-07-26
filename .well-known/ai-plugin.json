@@ -12,7 +12,7 @@
     "url": "https://www.bigsound.cc/.well-known/openapi.json",
     "is_user_authenticated": false
   },
-  "logo_url": "https://www.bigsound.cc/images/common/apple-touch-icon.png",
+  "logo_url": "https://www.bigsound.cc/images/common/apple-touch-icon.webp",
   "contact_email": "service@dasound.cn",
   "legal_info_url": "https://www.bigsound.cc/zh-CN/invest#contact",
   "homepage_url": "https://www.bigsound.cc/zh-CN/",

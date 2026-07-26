@@ -17,19 +17,19 @@
       "type": "image/x-icon"
     },
     {
-      "src": "/images/common/apple-touch-icon.png",
+      "src": "/images/common/apple-touch-icon.webp",
       "sizes": "180x180",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/images/common/icon-192.png",
+      "src": "/images/common/icon-192.webp",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/images/common/icon-512.png",
+      "src": "/images/common/icon-512.webp",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -40,19 +40,19 @@
       "name": "AI 中文助听器",
       "short_name": "助听器",
       "url": "/zh-CN/product",
-      "icons": [{ "src": "/images/common/icon-192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "/images/common/icon-192.webp", "sizes": "192x192" }]
     },
     {
       "name": "招商加盟",
       "short_name": "加盟",
       "url": "/zh-CN/invest",
-      "icons": [{ "src": "/images/common/icon-192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "/images/common/icon-192.webp", "sizes": "192x192" }]
     },
     {
       "name": "常见问题",
       "short_name": "FAQ",
       "url": "/zh-CN/faq",
-      "icons": [{ "src": "/images/common/icon-192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "/images/common/icon-192.webp", "sizes": "192x192" }]
     }
   ]
 }
