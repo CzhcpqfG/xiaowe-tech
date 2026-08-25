@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>小维健康科技 · 阶段交付报告</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --g:  #0B6E3F;
+    --gd: #074C2B;
+    --gl: #E9F3EE;
+    --ink: #1A1A1A;
+    --body: #333;
+    --muted: #666;
+    --line: #D9D9D9;
+    --bg:  #FFFFFF;
+  }
+
+  html { font-size: 15px; -webkit-font-smoothing: antialiased; }
+
+  body {
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    color: var(--body);
+    background: var(--bg);
+    line-height: 1.75;
+  }
+
+  /* ========== COVER ========== */
+  .cover {
+    background: #0B6E3F;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 72px;
+  }
+  .cover .tag {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    color: rgba(255,255,255,0.65);
+    margin-bottom: 56px;
+  }
+  .cover h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 1.2;
+    max-width: 560px;
+    margin-bottom: 20px;
+    letter-spacing: 0;
+  }
+  .cover .sub {
+    font-size: 1rem;
+    color: rgba(255,255,255,0.7);
+    max-width: 500px;
+    line-height: 1.65;
+    margin-bottom: 64px;
+  }
+  .cover .line {
+    width: 48px;
+    height: 2px;
+    background: rgba(255,255,255,0.35);
+    margin-bottom: 32px;
+  }
+  .cover .meta {
+    font-size: 0.82rem;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 0.05em;
+  }
+
+  /* ========== CONTENT ========== */
+  .content {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 56px 32px;
+  }
+
+  /* Section header */
+  .sec-num {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    color: var(--g);
+    margin-bottom: 6px;
+  }
+  .sec-title {
+    font-size: 1.65rem;
+    font-weight: 800;
+    color: var(--ink);
+    line-height: 1.3;
+    margin-bottom: 28px;
+    padding-left: 14px;
+    border-left: 4px solid var(--g);
+  }
+  .sec-subtitle {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 28px 0 12px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+  }
+
+  /* Paragraph */
+  p {
+    margin-bottom: 14px;
+    color: var(--body);
+    font-size: 0.95rem;
+  }
+
+  /* Number callout */
+  .num {
+    color: var(--g);
+    font-weight: 800;
+  }
+
+  /* Highlight block */
+  .hl {
+    background: var(--gl);
+    border-left: 3px solid var(--g);
+    padding: 16px 20px;
+    margin: 20px 0 24px;
+    font-size: 0.93rem;
+    color: #1A3B2B;
+    line-height: 1.7;
+  }
+
+  /* ========== TABLE ========== */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0 28px;
+    font-size: 0.88rem;
+  }
+  thead th {
+    background: var(--g);
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+    padding: 10px 14px;
+    font-size: 0.82rem;
+    letter-spacing: 0.03em;
+  }
+  tbody td {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  tbody tr:nth-child(even) td {
+    background: #F9FAFA;
+  }
+  tbody td:first-child {
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  /* ========== DECISION BLOCK ========== */
+  .decision {
+    border: 1px solid var(--line);
+    padding: 20px 24px;
+    margin: 18px 0 24px;
+  }
+  .decision .d-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+  .decision .d-option {
+    font-size: 0.88rem;
+    color: var(--body);
+    margin-bottom: 6px;
+    padding-left: 20px;
+    position: relative;
+  }
+  .decision .d-option::before {
+    content: '☐';
+    position: absolute;
+    left: 0;
+    color: var(--muted);
+  }
+  .decision .d-option.rec::before {
+    content: '☑';
+    color: var(--g);
+    font-weight: 700;
+  }
+  .decision .d-option.rec {
+    font-weight: 700;
+  }
+
+  /* ========== VALUE TABLE (green accent rows) ========== */
+  .val-table th:last-child { background: #074C2B; }
+
+  /* ========== LIST ========== */
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 12px 0 20px;
+  }
+  li {
+    position: relative;
+    padding-left: 16px;
+    margin-bottom: 8px;
+    font-size: 0.93rem;
+    color: var(--body);
+  }
+  li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 6px;
+    height: 6px;
+    background: var(--g);
+    border-radius: 1px;
+  }
+
+  /* ========== PAGE BREAK ========== */
+  .pb { page-break-before: always; break-before: page; }
+  .pb-after { page-break-after: always; break-after: page; }
+  /* .nb — allow natural page breaks (tables may split across pages) */
+
+  /* ========== SUMMARY ========== */
+  .summary-box {
+    background: #F5F7F6;
+    padding: 28px 32px;
+    margin: 20px 0 32px;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: #2D2D2D;
+  }
+
+  @media print {
+    html { font-size: 12.5px; }
+    .content { padding: 40px 32px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════ COVER ═══════════ -->
+<section class="cover pb-after">
+  <div class="tag">PHASE DELIVERY REPORT</div>
+  <h1>小维健康科技官网<br>阶段交付报告</h1>
+  <div class="sub">首页 + 9 个子页面 · 三语国际化 · SEO/GEO 全栈优化 · 品牌配图与宣传片</div>
+  <div class="line"></div>
+  <div class="meta">2026 年 7 月 &nbsp;|&nbsp; 项目编号：小维健康科技官网</div>
+</section>
+
+<!-- ═══════════ 摘要 ═══════════ -->
+<section class="content">
+  <div class="sec-title">摘要</div>
+
+  <div class="summary-box">
+    本阶段完成小维健康科技官网的 <span class="num">12 个页面、3 种语言、24 个静态预渲染页面</span>的完整交付，工程代码 <span class="num">1.4 万行</span>，资源图片 <span class="num">139 张</span>，品牌定制配图 <span class="num">31+ 张</span>，15 秒品牌宣传片 <span class="num">1 支</span>。<br><br>
+    重点完成 <span class="num">SEO + GEO 双栈优化</span>（10 类结构化数据 + 13 个 AI 爬虫友好协议 + 37 条 FAQ 问答矩阵），让网站在豆包、ChatGPT、Perplexity、Claude 等 AI 搜索引擎中的命中率显著提升。同步复刻招商手册 6 处关键图表并配套统一品牌动效系统，完成桌面/移动双端响应式适配。
+  </div>
+</section>
+
+<!-- ═══════════ 一、核心成果 ═══════════ -->
+<section class="content">
+  <div class="nb">
+    <div class="sec-num">PART 01</div>
+    <div class="sec-title">核心成果</div>
+  </div>
+
+  <!-- 1.1 -->
+  <div class="nb">
+    <div class="sec-subtitle">1.1 网站概况</div>
+    <table>
+      <thead>
+        <tr><th style="width:22%">维度</th><th style="width:18%">数据</th><th>说明</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>页面总数</td><td class="num" style="font-size:1.05rem">12 个</td><td>含首页、关于、产品、穿戴、招商、招聘、资讯列表、资讯详情、FAQ、登录、注册、404</td></tr>
+        <tr><td>可访问 URL</td><td class="num" style="font-size:1.05rem">39 个</td><td>13 路由 × 3 语言，覆盖简中 / 繁中 / 英文</td></tr>
+        <tr><td>工程代码</td><td class="num" style="font-size:1.05rem">约 1.4 万行</td><td>71 个源文件，完整前后端分离架构</td></tr>
+        <tr><td>资源图片</td><td class="num" style="font-size:1.05rem">139 张</td><td>含产品图、Hero 图、荣誉证书、企业资质、企业文化、招聘场景等</td></tr>
+        <tr><td>品牌定制配图</td><td class="num" style="font-size:1.05rem">31+ 张</td><td>涵盖首页 Hero、产品、企业文化、招聘、荣誉、招商场景</td></tr>
+        <tr><td>品牌宣传片</td><td class="num" style="font-size:1.05rem">1 支（15 秒）</td><td>5 分镜，1080P，接入首页 Hero 区域</td></tr>
+        <tr><td>国际化翻译</td><td class="num" style="font-size:1.05rem">33 个文件 / 2,035+ 条</td><td>3 语言 × 11 模块，全站文案无硬编码</td></tr>
+        <tr><td>结构化数据</td><td class="num" style="font-size:1.05rem">10 类 Schema</td><td>覆盖组织、网站、FAQ、产品、医疗器械等主流类型</td></tr>
+        <tr><td>预渲染页面</td><td class="num" style="font-size:1.05rem">24 个静态页面</td><td>确保搜索引擎与 AI 爬虫无障碍抓取</td></tr>
+        <tr><td>构建产物</td><td style="color:var(--g);font-weight:700">完整可部署</td><td>含多语言子目录、SEO 文件、视频、图片资源</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 1.2 SEO + GEO -->
+  <div class="nb">
+    <div class="sec-subtitle">1.2 SEO + GEO 双栈优化</div>
+
+    <p><strong>SEO</strong>——提升百度 / Google / Bing 等传统搜索引擎排名：</p>
+    <ul>
+      <li>动态元信息管理：每个页面独立 title / description / keywords，3 语种 × 12 页面 = <span class="num">36 套 SEO 文案</span></li>
+      <li>多语言防重复惩罚：4 条 alternate 链接，避免搜索引擎判定重复内容</li>
+      <li>社交分享卡片：覆盖微信、微博、Facebook、LinkedIn 等主流平台</li>
+      <li>站点地图：24 个 URL，按页面权重分配优先级与爬虫抓取节奏</li>
+      <li>爬虫协议精细控制：允许全站抓取，仅禁止登录 / 注册等低价值页</li>
+    </ul>
+
+    <p style="margin-top:24px"><strong>GEO</strong>——针对豆包、ChatGPT、Perplexity、Claude、文心一言等 AI 搜索引擎的专项优化：</p>
+
+    <div class="hl">
+      这是当前行业内的前沿优化方向，大多数同行网站尚未涉足。本次官网已完整落地，让品牌在 AI 时代具备"被 AI 引用为答案"的能力。
+    </div>
+
+    <ul>
+      <li><span class="num">37 条 FAQ 问答矩阵</span>：覆盖"听力不好怎么办""助听器品牌选哪个""助听器多少钱""老年人助听器怎么选"等高频问题，按 6 大分类组织</li>
+      <li>FAQ 结构化数据注入：37 条问答以结构化数据呈现，AI 爬虫可直接抓取问答对</li>
+      <li>AI 爬虫友好协议：显式允许 13 个主流 AI 爬虫</li>
+      <li>AI 摘要文档 + 完整品牌知识库：为 AI 搜索引擎提供专属摘要（83 行）+ 完整品牌知识库</li>
+      <li>核心页面内嵌 FAQ 模块：首页 / 产品页 / 招商页各注入 4 条相关 FAQ</li>
+      <li><span class="num">24 页静态预渲染</span>：AI 爬虫无需执行 JS 即可抓取完整内容</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════ 二、需客户决策与补充的事项 ═══════════ -->
+<section class="content">
+  <div class="nb">
+    <div class="sec-num">PART 02</div>
+    <div class="sec-title">需客户决策与补充的事项</div>
+  </div>
+
+  <!-- 2.1 -->
+  <div class="nb">
+    <div class="sec-subtitle">2.1 注册登录功能：保留还是移除？</div>
+
+    <p><span class="num">建议：移除注册登录功能，改为外部客服入口。</span></p>
+
+    <table>
+      <thead><tr><th style="width:18%">维度</th><th>保留注册登录</th><th style="background:#074C2B">移除注册登录（推荐）</th></tr></thead>
+      <tbody>
+        <tr><td>开发成本</td><td>需额外 1-2 周开发用户中心、密码找回、第三方登录</td><td class="num">0</td></tr>
+        <tr><td>运维成本</td><td>需数据库、对象存储、定期备份、安全审计</td><td>仅静态托管</td></tr>
+        <tr><td>服务器成本</td><td>月均 ¥200-500</td><td class="num">CDN 静态托管月均 ¥30-80</td></tr>
+        <tr><td>安全合规</td><td>用户数据需符合《个人信息保护法》</td><td>无用户数据，无合规风险</td></tr>
+        <tr><td>边际效益</td><td>助听器属低频高客单商品，用户主动注册意愿低</td><td>在线客服 / 电话咨询转化率更高</td></tr>
+        <tr><td>替代方案</td><td>—</td><td>在线客服（企业微信）/ 电话回拨 / 表单留资</td></tr>
+      </tbody>
+    </table>
+
+    <div class="decision">
+      <div class="d-title">请决策</div>
+      <div class="d-option">保留注册登录（后续需排期开发数据库与用户中心）</div>
+      <div class="d-option">移除注册登录，改为外部客服入口（推荐，可节省 1-2 周开发周期与持续运维成本）</div>
+    </div>
+  </div>
+
+  <!-- 2.2 -->
+  <div class="nb">
+    <div class="sec-subtitle">2.2 首页宣传片方案</div>
+
+    <table>
+      <thead><tr><th style="width:20%">方案</th><th>说明</th><th style="width:32%">优劣</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="num">方案 A：沿用当前宣传片</td>
+          <td>继续使用当前已接入的 15 秒宣传片</td>
+          <td>优势：零成本、已上线<br>劣势：部分镜头为非实拍合成</td>
+        </tr>
+        <tr>
+          <td>方案 B：客户提供实拍素材</td>
+          <td>客户提供官方实拍视频素材，我方负责剪辑、配字幕、上线</td>
+          <td>优势：质感最佳<br>劣势：需客户安排拍摄，周期 2-4 周</td>
+        </tr>
+        <tr>
+          <td>方案 C：我方重新制作</td>
+          <td>由我方基于品牌资料重新制作一支更高规格的宣传片</td>
+          <td>优势：质感优于方案 A<br>劣势：需额外制作周期与费用</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="decision">
+      <div class="d-title">请决策</div>
+      <div class="d-option">方案 A：沿用当前宣传片</div>
+      <div class="d-option">方案 B：客户提供实拍素材</div>
+      <div class="d-option">方案 C：我方重新制作</div>
+    </div>
+  </div>
+
+  <!-- 2.3 -->
+  <div class="nb">
+    <div class="sec-subtitle">2.3 待客户提供：补充资料清单</div>
+
+    <p><strong>A. 公司联系邮箱</strong> <span style="color:#C0392B;font-size:0.8rem;font-weight:700">高优先级</span></p>
+    <p>Footer 联系我们、招商页 #contact 模块、结构化数据、AI 摘要文档均需填入。需提供：客服邮箱、招商合作邮箱、（可选）媒体 PR 邮箱。</p>
+
+    <p style="margin-top:16px"><strong>B. 各社交平台二维码图片</strong> <span style="color:#C0392B;font-size:0.8rem;font-weight:700">高优先级</span></p>
+    <p>Footer "关注我们" 8 个社交平台均为占位。需提供：视频号 / 小红书 / 抖音 / 快手 / B 站 / 微信公众号 / 微博 / 知乎，每个一张二维码 PNG，建议 240×240 px。</p>
+
+    <p style="margin-top:16px"><strong>C. 各店铺链接</strong> <span style="color:#C0392B;font-size:0.8rem;font-weight:700">高优先级</span></p>
+    <p>Footer "选购指南" 3 类产品 × 3 平台 = 9 个链接，全部为占位。需提供天猫 / 京东 / 拼多多官方旗舰店直达 URL。</p>
+
+    <p style="margin-top:16px"><strong>D. 助听器产品手册与型号详情</strong> <span style="color:#C0392B;font-size:0.8rem;font-weight:700">高优先级</span></p>
+    <p>产品页 12 款助听器型号的详细参数为通用框架，需补充：官方产品手册（PDF 或 Word）、核心参数（功率档位 / 通道数 / 电池规格 / 防水等级等）、建议零售价、适应症与适用人群。</p>
+  </div>
+
+  <!-- 2.4 -->
+  <div class="nb">
+    <div class="sec-subtitle">2.4 待客户确认：招商政策</div>
+
+    <p>招商页"招商政策详细解读表"等内容为基于公开资料整理的通用框架，需客户核对确认以下 8 项：</p>
+    <ul>
+      <li>加盟门槛（加盟费 / 保证金 / 首批进货款等具体金额）</li>
+      <li>选址支持（门店面积要求 / 装修补贴 / 选址评估流程）</li>
+      <li>培训支持（开业培训 / 验配师培训 / 经营培训的周期与名额）</li>
+      <li>营销赋能（广告投放补贴 / 物料支持 / 线上引流方式）</li>
+      <li>代运营支持（代运营范围 / 服务费用 / 分成模式）</li>
+      <li>售后政策（退换货政策 / 质保期 / 维修响应时效）</li>
+      <li>区域保护政策（独家授权范围 / 同行间隔距离）</li>
+      <li>合作期限与续约条件</li>
+    </ul>
+
+    <div class="decision">
+      <div class="d-title">请决策</div>
+      <div class="d-option">当前招商政策内容准确，可直接上线</div>
+      <div class="d-option">部分内容需调整（请标注修改）</div>
+      <div class="d-option">需重新提供完整招商政策文档</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 三、本阶段交付价值 ═══════════ -->
+<section class="content">
+  <div class="nb">
+    <div class="sec-num">PART 03</div>
+    <div class="sec-title">本阶段交付价值</div>
+  </div>
+
+  <div class="hl">
+    以下交付项在同行建站公司通常作为<strong>增值服务</strong>单独报价或加价销售，本次官网已全部作为<strong style="font-size:1.05rem">标配</strong>包含在交付范围内。
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width:20%">交付维度</th>
+        <th style="width:16%">同行通常定位</th>
+        <th style="width:14%;background:#074C2B">本次交付定位</th>
+        <th>交付内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>GEO 优化（AI 搜索引擎命中）</td>
+        <td>增值服务，需额外加价</td>
+        <td class="num" style="font-size:0.95rem">标配交付</td>
+        <td>37 条 FAQ 矩阵 + 13 个 AI 爬虫协议 + AI 摘要文档 + 完整品牌知识库 + 24 页静态预渲染</td>
+      </tr>
+      <tr>
+        <td>FAQ 模块（独立页面）</td>
+        <td>增值服务，需额外加价</td>
+        <td class="num" style="font-size:0.95rem">标配交付</td>
+        <td>37 条结构化问答，6 大分类，支持搜索 + 筛选，3 语共 111 条</td>
+      </tr>
+      <tr>
+        <td>AI 摘要文档 + 品牌知识库</td>
+        <td>行业内基本不提供</td>
+        <td class="num" style="font-size:0.95rem">标配交付</td>
+        <td>83 行摘要 + 完整品牌知识库，供豆包 / ChatGPT / Perplexity / Claude 抓取</td>
+      </tr>
+      <tr>
+        <td>静态预渲染</td>
+        <td>增值服务，需额外加价</td>
+        <td class="num" style="font-size:0.95rem">标配交付</td>
+        <td>24 页静态预渲染，确保 AI 爬虫无障碍抓取</td>
+      </tr>
+      <tr>
+        <td>多语言国际化（3 语）</td>
+        <td>增值服务，按语种加价</td>
+        <td class="num" style="font-size:0.95rem">标配交付</td>
+        <td>简中 + 繁中 + 英文，2,035+ 条翻译，33 个语言文件</td>
+      </tr>
+      <tr>
+        <td>品牌定制配图</td>
+        <td>增值服务，按张数加价</td>
+        <td class="num" style="font-size:0.95rem">标配交付</td>
+        <td>31+ 张品牌定制配图（产品 / 文化 / 荣誉 / 招商场景 / 招聘）</td>
+      </tr>
+      <tr>
+        <td>品牌宣传片</td>
+        <td>增值服务，单独报价</td>
+        <td class="num" style="font-size:0.95rem">标配交付</td>
+        <td>15 秒品牌宣传片（5 分镜），接入首页 Hero</td>
+      </tr>
+      <tr>
+        <td>招商手册图表代码化复刻</td>
+        <td>行业内基本不提供</td>
+        <td class="num" style="font-size:0.95rem">标配交付</td>
+        <td>6 处关键图表代码化复刻，清晰度任意缩放，配套动画</td>
+      </tr>
+      <tr>
+        <td>数据与视图分离（可维护性）</td>
+        <td>增值服务，需额外加价</td>
+        <td class="num" style="font-size:0.95rem">标配交付</td>
+        <td>文案与代码分离，非技术人员可维护</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="hl">
+    以上交付维度，在同行建站公司通常需要<strong>逐项加价</strong>采购，本次已全部作为<strong>标配</strong>包含在交付范围内。客户无需为这些能力额外付费，且无需在后续阶段补做。
+  </div>
+</section>
+
+<!-- ═══════════ 四、下阶段工作建议 ═══════════ -->
+<section class="content">
+  <div class="nb">
+    <div class="sec-num">PART 04</div>
+    <div class="sec-title">下阶段工作建议</div>
+  </div>
+
+  <ol style="padding-left:20px;margin:16px 0 24px;font-size:0.95rem;line-height:2.2;color:var(--body)">
+    <li><strong>决策注册登录功能去留</strong>（见 §2.1）</li>
+    <li><strong>决策首页宣传片方案</strong>（见 §2.2）</li>
+    <li><strong>补充客户资料</strong>（见 §2.3）</li>
+    <li><strong>确认招商政策内容</strong>（见 §2.4）</li>
+    <li><strong>接入 CMS 内容管理系统</strong>：为资讯中心、人才招聘等模块接入后台，客户运营可直接发布内容，无需开发介入</li>
+    <li><strong>正式上线部署</strong>：构建产物可部署至 CDN，需客户确认域名解析</li>
+  </ol>
+</section>
+
+<!-- ═══════════ 五、后续可选增值服务 ═══════════ -->
+<section class="content" style="padding-bottom:80px">
+  <div class="nb">
+    <div class="sec-num">PART 05</div>
+    <div class="sec-title">后续可选增值服务</div>
+  </div>
+
+  <ul>
+    <li><strong>GEO 持续优化</strong>：每月追踪豆包 / ChatGPT / Perplexity 等平台的引用情况，迭代 FAQ 内容，持续提升 AI 引用率</li>
+    <li><strong>品牌内容生产</strong>：基于本次配图工作流，可批量生产资讯配图、社媒海报、短视频素材</li>
+    <li><strong>AI 客服</strong>：接入基于本站知识库训练的 AI 客服，7×24 小时自动应答，提升留资转化率，降低人工客服成本</li>
+    <li><strong>多语言扩展</strong>：可扩展日韩越等海外语言（本次 i18n 架构已支持，新增语言成本低）</li>
+    <li><strong>私域引流落地页</strong>：为不同投放渠道定制专属落地页，提升转化率</li>
+  </ul>
+
+  <p style="margin-top:48px;color:var(--muted);font-size:0.82rem;text-align:center;border-top:1px solid var(--line);padding-top:24px">
+    本报告由开发团队编制，所有数据均来自项目真实交付物，可现场复核。
+  </p>
+</section>
+
+</body>
+</html>

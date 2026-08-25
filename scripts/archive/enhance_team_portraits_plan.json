@@ -1,0 +1,39 @@
+{
+  "save_to": "d:\\VibeTest\\bigsound\\aigpic\\team_enhanced",
+  "size": "1:1",
+  "concurrency": 2,
+  "pages": [
+    {
+      "index": 1,
+      "name": "team_member_1_zheng",
+      "prompt": "Professional corporate headshot portrait based on the reference photo. Preserve the same young Asian man wearing white shirt and dark tie, arms crossed. Center his face and upper body. Clean solid light gray background. Enhance sharpness, clarity and resolution. Photorealistic studio lighting, no text, no watermark, no logos.",
+      "fallback_prompt": "Clean professional corporate portrait photo, centered young Asian businessman, upper body, white shirt and dark tie, solid light gray background, high resolution, sharp focus, photorealistic, no text, no watermark",
+      "extra_refs": ["d:\\VibeTest\\bigsound\\public\\images\\about\\team\\team_member_1.png"],
+      "out": "team_member_1.png"
+    },
+    {
+      "index": 2,
+      "name": "team_member_2_wen",
+      "prompt": "Professional corporate headshot portrait based on the reference photo. Preserve the same middle-aged Asian man wearing blue suit, white shirt and blue tie. Center his face and upper body. Clean solid light gray background. Enhance sharpness, clarity and resolution. Photorealistic studio lighting, no text, no watermark, no logos.",
+      "fallback_prompt": "Clean professional corporate portrait photo, centered middle-aged Asian businessman, upper body, blue suit and tie, solid light gray background, high resolution, sharp focus, photorealistic, no text, no watermark",
+      "extra_refs": ["d:\\VibeTest\\bigsound\\public\\images\\about\\team\\team_member_2.png"],
+      "out": "team_member_2.png"
+    },
+    {
+      "index": 3,
+      "name": "team_member_3_long",
+      "prompt": "Professional corporate headshot portrait based on the reference photo. Preserve the same young Asian man wearing dark suit, white shirt and dark tie. Center his face and upper body. Clean solid light gray background. Enhance sharpness, clarity and resolution. Photorealistic studio lighting, no text, no watermark, no logos.",
+      "fallback_prompt": "Clean professional corporate portrait photo, centered young Asian businessman, upper body, dark suit and tie, solid light gray background, high resolution, sharp focus, photorealistic, no text, no watermark",
+      "extra_refs": ["d:\\VibeTest\\bigsound\\public\\images\\about\\team\\team_member_3.png"],
+      "out": "team_member_3.png"
+    },
+    {
+      "index": 4,
+      "name": "team_member_4_nan",
+      "prompt": "Professional corporate headshot portrait based on the reference photo. Preserve the same young Asian man wearing dark suit, white shirt and blue tie. Center his face and upper body. Clean solid light gray background. Enhance sharpness, clarity and resolution. Photorealistic studio lighting, no text, no watermark, no logos.",
+      "fallback_prompt": "Clean professional corporate portrait photo, centered young Asian businessman, upper body, dark suit and blue tie, solid light gray background, high resolution, sharp focus, photorealistic, no text, no watermark",
+      "extra_refs": ["d:\\VibeTest\\bigsound\\public\\images\\about\\team\\team_member_4.png"],
+      "out": "team_member_4.png"
+    }
+  ]
+}

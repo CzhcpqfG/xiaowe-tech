@@ -1,0 +1,39 @@
+{
+  "name": "xiaowe-tech",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "tsx scripts/generate-sitemap.ts && tsx scripts/scan-image-dimensions.ts && tsx scripts/generate-news-thumbs.ts",
+    "build": "tsc -b && vite build",
+    "postbuild": "tsx scripts/prerender.ts",
+    "preview": "vite preview",
+    "prerender": "tsx scripts/prerender.ts",
+    "sitemap": "tsx scripts/generate-sitemap.ts",
+    "scan:images": "tsx scripts/scan-image-dimensions.ts",
+    "compress:images": "node scripts/compress-images.cjs",
+    "update:image-refs": "node scripts/update-image-refs-to-webp.cjs"
+  },
+  "dependencies": {
+    "i18next": "^26.3.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^3.0.0",
+    "react-i18next": "^17.0.11",
+    "react-router-dom": "^6.26.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "sharp": "^0.35.3",
+    "tailwindcss": "^3.4.10",
+    "tsx": "^4.23.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0"
+  }
+}

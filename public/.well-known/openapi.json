@@ -1,0 +1,39 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "大声助听器 Bigsound — 站点信息接口",
+    "description": "大声助听器（Bigsound）官网的只读信息端点。Bigsound 是小维健康科技（深圳）有限公司旗下品牌，隶属创维集团生态，主营 AI 中文助听器。服务热线：400-116-9566。",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://www.xiaowe.cc"
+    }
+  ],
+  "paths": {
+    "/llms.txt": {
+      "get": {
+        "operationId": "getSiteGuide",
+        "summary": "获取站点 AI 指南 (llms.txt)",
+        "description": "返回面向 LLM/AI 助手的站点导航与核心信息（企业、品牌、产品、门店、联系方式）。",
+        "responses": {
+          "200": {
+            "description": "成功返回 llms.txt 纯文本内容"
+          }
+        }
+      }
+    },
+    "/zh-CN/": {
+      "get": {
+        "operationId": "getHomeZhCN",
+        "summary": "获取中文首页 HTML",
+        "description": "返回小维健康科技官网中文首页，包含 AI 中文助听器、健康智能穿戴产品与公司介绍。",
+        "responses": {
+          "200": {
+            "description": "成功返回首页 HTML"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "hero": {
+    "title": "Health Smart Wearable",
+    "subtitle": "Comprehensive Health Management",
+    "description": "Continuous body monitoring via health smartwatches, powered by AI + health service cloud platform for comprehensive health management."
+  },
+  "productStage": {
+    "title": "Product Lineup",
+    "subtitle": "Skyworth Health Smart Wearable Full Family"
+  },
+  "categorySlogan": [
+    "Full-Line Coverage",
+    "All-Scenario Response"
+  ],
+  "tabs": {
+    "all": "All",
+    "adult-watch": "Adult Watch",
+    "kids-watch": "Kids Watch",
+    "bluetooth-earphone": "Earphone"
+  },
+  "noProducts": "No products in this category yet, stay tuned...",
+  "priceCaption": "MSRP",
+  "priceLabel": "¥ {{price}}",
+  "watchTech": {
+    "title": "Health Smartwatch Core Technologies",
+    "subtitle": "All-Day Protection · Comprehensive Health",
+    "items": {
+      "0": {
+        "name": "Heart Rate Monitoring",
+        "desc": "24-hour continuous heart rate monitoring with real-time abnormal alerts"
+      },
+      "1": {
+        "name": "Blood Oxygen Monitoring",
+        "desc": "Precise SpO₂ detection for respiratory health"
+      },
+      "2": {
+        "name": "Positioning",
+        "desc": "GPS + BeiDou multi-positioning, location always available"
+      },
+      "3": {
+        "name": "Sports Health",
+        "desc": "Multiple sport modes, logging every workout"
+      },
+      "4": {
+        "name": "Sleep Monitoring",
+        "desc": "Full-cycle sleep analysis for better rest"
+      },
+      "5": {
+        "name": "Body Temperature",
+        "desc": "Real-time temperature detection, health status at a glance"
+      },
+      "6": {
+        "name": "Blood Pressure Monitoring",
+        "desc": "Wrist-based BP estimation, track cardiovascular trends"
+      },
+      "7": {
+        "name": "ECG Monitoring",
+        "desc": "Single-lead ECG, capture arrhythmias"
+      },
+      "8": {
+        "name": "Stress Monitoring",
+        "desc": "Real-time stress assessment with relaxation reminders"
+      },
+      "9": {
+        "name": "Women's Health",
+        "desc": "Menstrual logging and prediction, thoughtful care"
+      },
+      "10": {
+        "name": "Breathing Training",
+        "desc": "Scientific breathing rhythms to ease anxiety"
+      },
+      "11": {
+        "name": "Geofence",
+        "desc": "Custom safety zones with entry/exit alerts"
+      },
+      "12": {
+        "name": "Remote Shutter",
+        "desc": "Remote camera control, capture every moment"
+      },
+      "13": {
+        "name": "Music",
+        "desc": "Standalone music playback, easier on the go"
+      },
+      "14": {
+        "name": "One-Tap SOS Emergency",
+        "desc": "One-tap SOS for help, protecting you every moment"
+      }
+    }
+  },
+  "earphoneTech": {
+    "title": "Smart Bluetooth Earphone",
+    "subtitle": "Acoustic Tech · New Listening Experience",
+    "items": {
+      "0": {
+        "name": "Multi-Scene Sound",
+        "desc": "Smart sound mode switching for different scenarios"
+      },
+      "1": {
+        "name": "Directional Audio",
+        "desc": "Precise directional audio, privacy preserved"
+      },
+      "2": {
+        "name": "HiFi Lossless Sound",
+        "desc": "High-fidelity sound, hear every detail"
+      },
+      "3": {
+        "name": "SBC Decoding",
+        "desc": "Compatible with mainstream Bluetooth audio codecs, stable connection"
+      },
+      "4": {
+        "name": "Beamforming Noise Cancellation",
+        "desc": "Focus on vocals, effectively eliminate ambient noise"
+      },
+      "5": {
+        "name": "Deep Noise Cancellation",
+        "desc": "Active noise cancellation for immersive listening"
+      },
+      "6": {
+        "name": "Long Battery Life",
+        "desc": "8-hour playback per charge, 32-hour total battery life"
+      },
+      "7": {
+        "name": "Call Noise Reduction",
+        "desc": "Dual-mic ENC, crystal-clear voice"
+      },
+      "8": {
+        "name": "Low-Latency Mode",
+        "desc": "60ms gaming-grade low latency, A/V sync"
+      },
+      "9": {
+        "name": "Waterproof",
+        "desc": "IPX5 water resistance, worry-free sports"
+      }
+    }
+  },
+  "products": {
+    "c01": {
+      "model": "SKYWORTH Watch C01 [Solar Edition]",
+      "type": "Bluetooth Health Smart Watch",
+      "colors": "Obsidian Black",
+      "alt": "SKYWORTH Watch C01 Solar Edition Adult Smart Watch",
+      "features": {
+        "0": {
+          "label": "Solar Charging",
+          "desc": "Light energy replenishes, longer battery life"
+        },
+        "1": {
+          "label": "Heart Rate Monitoring",
+          "desc": "24-hour continuous monitoring"
+        },
+        "2": {
+          "label": "Blood Oxygen Monitoring",
+          "desc": "Precise SpO₂ saturation"
+        },
+        "3": {
+          "label": "Health Alert",
+          "desc": "Real-time abnormal reminders"
+        }
+      }
+    },
+    "c02": {
+      "model": "SKYWORTH Watch C02 [Solar Edition]",
+      "type": "Bluetooth Health Smart Watch",
+      "colors": "Obsidian Black",
+      "alt": "SKYWORTH Watch C02 Solar Edition Adult Smart Watch",
+      "features": {
+        "0": {
+          "label": "Solar Charging",
+          "desc": "Light energy replenishes, longer battery life"
+        },
+        "1": {
+          "label": "Sleep Monitoring",
+          "desc": "Full-cycle sleep analysis"
+        },
+        "2": {
+          "label": "Sports Health",
+          "desc": "Multiple sport modes"
+        },
+        "3": {
+          "label": "Health Alert",
+          "desc": "Real-time abnormal reminders"
+        }
+      }
+    },
+    "r1": {
+      "model": "SKYWORTH Watch R1",
+      "type": "Bluetooth Health Smart Watch",
+      "colors": "Obsidian Black, Phantom Silver Grey",
+      "alt": "SKYWORTH Watch R1 Adult Smart Watch",
+      "features": {
+        "0": {
+          "label": "Heart Rate Monitoring",
+          "desc": "24-hour continuous monitoring"
+        },
+        "1": {
+          "label": "Blood Oxygen Monitoring",
+          "desc": "Precise SpO₂ saturation"
+        },
+        "2": {
+          "label": "Sports Health",
+          "desc": "Multiple sport modes"
+        },
+        "3": {
+          "label": "Message Alert",
+          "desc": "Calls / SMS / APP"
+        }
+      }
+    },
+    "s8": {
+      "model": "SKYWORTH Watch S8",
+      "type": "Bluetooth Health Smart Watch",
+      "colors": "Gold, Silver",
+      "alt": "SKYWORTH Watch S8 Adult Smart Watch",
+      "features": {
+        "0": {
+          "label": "Heart Rate Monitoring",
+          "desc": "24-hour continuous monitoring"
+        },
+        "1": {
+          "label": "Blood Oxygen Monitoring",
+          "desc": "Precise SpO₂ saturation"
+        },
+        "2": {
+          "label": "Sleep Monitoring",
+          "desc": "Full-cycle sleep analysis"
+        },
+        "3": {
+          "label": "Sports Health",
+          "desc": "Multiple sport modes"
+        }
+      }
+    },
+    "t9": {
+      "model": "SKYWORTH KID'S Watch T9",
+      "type": "Kids Health Smart Watch",
+      "colors": "Black, White, Pink",
+      "alt": "SKYWORTH KID'S Watch T9 Kids Smart Watch",
+      "features": {
+        "0": {
+          "label": "One-Tap Location",
+          "desc": "GPS + BeiDou multi-positioning"
+        },
+        "1": {
+          "label": "Geofence",
+          "desc": "Entry/exit safety zone alerts"
+        },
+        "2": {
+          "label": "SOS Emergency",
+          "desc": "One-tap SOS for help"
+        },
+        "3": {
+          "label": "Remote Guardian",
+          "desc": "Parent remote monitoring"
+        }
+      }
+    },
+    "t10": {
+      "model": "SKYWORTH KID'S Watch T10",
+      "type": "Kids Health Smart Watch",
+      "colors": "Black, Blue, Pink",
+      "alt": "SKYWORTH KID'S Watch T10 Kids Smart Watch",
+      "features": {
+        "0": {
+          "label": "One-Tap Location",
+          "desc": "GPS + BeiDou multi-positioning"
+        },
+        "1": {
+          "label": "Geofence",
+          "desc": "Entry/exit safety zone alerts"
+        },
+        "2": {
+          "label": "SOS Emergency",
+          "desc": "One-tap SOS for help"
+        },
+        "3": {
+          "label": "Video Call",
+          "desc": "Family chat, zero distance"
+        }
+      }
+    },
+    "z1": {
+      "model": "SKYWORTH KID'S Watch Z1",
+      "type": "Kids Health Smart Watch",
+      "colors": "Black, White, Blue, Pink, Purple",
+      "alt": "SKYWORTH KID'S Watch Z1 Kids Smart Watch",
+      "features": {
+        "0": {
+          "label": "One-Tap Location",
+          "desc": "GPS + BeiDou multi-positioning"
+        },
+        "1": {
+          "label": "SOS Emergency",
+          "desc": "One-tap SOS for help"
+        },
+        "2": {
+          "label": "Sports Monitoring",
+          "desc": "Kids activity data logging"
+        },
+        "3": {
+          "label": "Class Mode",
+          "desc": "Focus on study, no distractions"
+        }
+      }
+    },
+    "seb002": {
+      "model": "SKYWORTH OWS SEB002",
+      "type": "OWS Open-Ear",
+      "colors": "Black, White, Blue",
+      "alt": "SKYWORTH OWS SEB002 Open-Ear Bluetooth Earphone",
+      "features": {
+        "0": {
+          "label": "Open-Ear",
+          "desc": "No ear canal pressure, all-day comfort"
+        },
+        "1": {
+          "label": "Directional Audio",
+          "desc": "Precise direction, no disturbance"
+        },
+        "2": {
+          "label": "HiFi Sound",
+          "desc": "High-fidelity lossless audio"
+        },
+        "3": {
+          "label": "Deep Noise Cancellation",
+          "desc": "Active noise cancellation, immersive"
+        }
+      }
+    },
+    "sep002": {
+      "model": "SKYWORTH OWS SEP002",
+      "type": "OWS Open-Ear",
+      "colors": "Blue, Purple, Black, Pink",
+      "alt": "SKYWORTH OWS SEP002 Open-Ear Bluetooth Earphone",
+      "features": {
+        "0": {
+          "label": "Open-Ear",
+          "desc": "No ear canal pressure, all-day comfort"
+        },
+        "1": {
+          "label": "Directional Audio",
+          "desc": "Precise direction, no disturbance"
+        },
+        "2": {
+          "label": "HiFi Sound",
+          "desc": "High-fidelity lossless audio"
+        },
+        "3": {
+          "label": "Long Battery Life",
+          "desc": "8-hour playback per charge"
+        }
+      }
+    },
+    "ses002": {
+      "model": "SKYWORTH OWS SES002",
+      "type": "OWS Open-Ear",
+      "colors": "Black, Blue, Pink",
+      "alt": "SKYWORTH OWS SES002 Open-Ear Bluetooth Earphone",
+      "features": {
+        "0": {
+          "label": "Open-Ear",
+          "desc": "No ear canal pressure, all-day comfort"
+        },
+        "1": {
+          "label": "Multi-Scene Sound",
+          "desc": "Smart sound mode switching"
+        },
+        "2": {
+          "label": "SBC Decoding",
+          "desc": "Compatible with mainstream codecs"
+        },
+        "3": {
+          "label": "Beamforming Cancellation",
+          "desc": "Focus on vocals, noise reduction"
+        }
+      }
+    },
+    "sep001": {
+      "model": "SKYWORTH TWS SEP001",
+      "type": "TWS In-Ear",
+      "colors": "Black, White, Blue, Purple, Pink",
+      "alt": "SKYWORTH TWS SEP001 In-Ear Bluetooth Earphone",
+      "features": {
+        "0": {
+          "label": "In-Ear Comfort",
+          "desc": "Ergonomic comfortable fit"
+        },
+        "1": {
+          "label": "Deep Noise Cancellation",
+          "desc": "Active noise cancellation, immersive"
+        },
+        "2": {
+          "label": "HiFi Sound",
+          "desc": "High-fidelity lossless audio"
+        },
+        "3": {
+          "label": "Charging Case",
+          "desc": "Portable, long battery life"
+        }
+      }
+    }
+  }
+}

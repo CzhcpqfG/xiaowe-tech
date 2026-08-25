@@ -1,0 +1,54 @@
+{
+  "home": {
+    "title": "Xiaowei Health Tech - Health Tech Company under Skyworth Ecosystem",
+    "description": "Xiaowei Health Technology (Shenzhen) Co., Ltd. — a health tech company under Skyworth ecosystem, owning two brands: Bigsound (AI Chinese hearing aids) and SKYWORTH (health smartwatches, kids watches, Bluetooth earphones).",
+    "keywords": "Xiaowei Health Tech, SKYWORTH, Bigsound, hearing aid, Chinese hearing aid, AI hearing aid, smartwatch, Bluetooth earphone, hearing health, Tencent Tianlai"
+  },
+  "about": {
+    "title": "About - Xiaowei Health Tech",
+    "description": "Xiaowei Health Technology, a hearing health brand under Skyworth ecosystem, focused on AI Chinese hearing aid R&D and service",
+    "keywords": "Xiaowei Health, Skyworth, Dasound, corporate culture, core team"
+  },
+  "product": {
+    "title": "AI Chinese Hearing Aid - Xiaowei Health Tech",
+    "description": "Dasound AI Chinese hearing aid, powered by 5-core heterogeneous 12nm processor and Chinese speech enhancement algorithm 2.0, certified as a national medical device",
+    "keywords": "AI hearing aid, Chinese hearing aid, hearing aid products, Dasound models"
+  },
+  "wearable": {
+    "title": "Health Wearables - Xiaowei Health Tech",
+    "description": "SKYWORTH health smartwatch, integrating hearing health monitoring with smart wearable features",
+    "keywords": "smartwatch, health wearable, SKYWORTH smartwatch"
+  },
+  "invest": {
+    "title": "Partnership - Xiaowei Health Tech",
+    "description": "Xiaowei Health Tech partnership, hundreds-of-billions hearing health market, grow together with Skyworth ecosystem",
+    "keywords": "hearing aid partnership, hearing aid franchise, Xiaowei Health partnership, hearing health market"
+  },
+  "careers": {
+    "title": "Careers - Xiaowei Health Tech",
+    "description": "Join Xiaowei Health Tech and grow with our professional team",
+    "keywords": "hearing aid jobs, Xiaowei Health careers, hearing industry positions"
+  },
+  "news": {
+    "title": "News - Xiaowei Health Tech",
+    "description": "Xiaowei Health Tech news, company updates, product information, and industry insights",
+    "keywords": "hearing aid news, hearing industry information, Xiaowei Health updates"
+  },
+  "newsDetail": {
+    "title": "{{title}} - Xiaowei Health Tech",
+    "description": "{{summary}}"
+  },
+  "productDetail": {
+    "title": "{{title}} - Xiaowei Health Tech",
+    "description": "Dasound AI Chinese Hearing Aid {{title}} product details"
+  },
+  "faq": {
+    "title": "FAQ - Xiaowei Health Tech",
+    "description": "Dasound hearing aid FAQ: 37 high-frequency questions on hearing aid basics, product selection, Chinese hearing aid differentiation, medical certification, hearing service centers, full-lifecycle service, warranty, and franchise partnership",
+    "keywords": "hearing aid FAQ, what to do for hearing loss, which hearing aid brand, hearing aid fitting, hearing aid price, Dasound Q&A"
+  },
+  "notFound": {
+    "title": "Page not found - Xiaowei Health Tech",
+    "description": "The page you are looking for does not exist"
+  }
+}

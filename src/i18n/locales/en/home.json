@@ -1,0 +1,100 @@
+{
+  "videoEntry": {
+    "ariaLabel": "Click to play the corporate video in fullscreen"
+  },
+  "heroProducts": {
+    "hearingAid": {
+      "title": "AI Chinese Hearing Aid",
+      "subtitle": "Listen to the sound of love",
+      "description": "The first to pioneer the Chinese hearing aid concept, powered by a 5-core heterogeneous chip and Chinese Enhancement Algorithm 2.0, designed for Chinese-language contexts and Chinese users.",
+      "techs": {
+        "chip": {
+          "title": "5-Core Heterogeneous Chip",
+          "desc": "12nm fully digital processor"
+        },
+        "algorithm": {
+          "title": "Chinese Enhancement Algorithm 2.0",
+          "desc": "Improves Chinese speech recognition"
+        },
+        "aiPower": {
+          "title": "15 Billion MAC ops/sec",
+          "desc": "Multiply-accumulate operations"
+        },
+        "htt": {
+          "title": "HTT Non-stationary Noise Reduction",
+          "desc": "Algorithm"
+        },
+        "agc": {
+          "title": "AI AGC Auto Gain",
+          "desc": "Control"
+        },
+        "mic": {
+          "title": "65dB SNR Array Microphone",
+          "desc": "High-fidelity capture"
+        }
+      }
+    },
+    "watch": {
+      "title": "Health Smartwatch",
+      "subtitle": "Comprehensive health management",
+      "description": "Continuous body monitoring via the health smartwatch, with AI + health service cloud platform providing heart rate, blood oxygen, body temperature and more — for comprehensive health management.",
+      "techs": {
+        "heartRate": {
+          "title": "Heart Rate Monitoring",
+          "desc": "24h continuous monitoring"
+        },
+        "sport": {
+          "title": "Sports & Health",
+          "desc": "Multi-mode tracking"
+        },
+        "bloodOxygen": {
+          "title": "Blood Oxygen Monitoring",
+          "desc": "Real-time SpO₂"
+        },
+        "geofence": {
+          "title": "Geofence",
+          "desc": "Safety protection"
+        },
+        "temperature": {
+          "title": "Body Temperature",
+          "desc": "Precise measurement"
+        },
+        "location": {
+          "title": "One-tap Location",
+          "desc": "GPS + BeiDou"
+        }
+      }
+    },
+    "earphone": {
+      "title": "Smart Bluetooth Earphones",
+      "subtitle": "HiFi lossless audio",
+      "description": "Multi-scenario acoustic solution — directional sound transmission + sound-wave focusing for noise cancellation, paired with HiFi lossless audio and deep noise cancellation for an immersive listening experience.",
+      "techs": {
+        "scenes": {
+          "title": "Multi-Scenario Sound",
+          "desc": "Smart switching"
+        },
+        "directional": {
+          "title": "Directional Sound Channel",
+          "desc": "Directional capture"
+        },
+        "hifi": {
+          "title": "HiFi Lossless Audio",
+          "desc": "High-fidelity reproduction"
+        },
+        "sbc": {
+          "title": "SBC Audio Decoding",
+          "desc": "Low-latency transmission"
+        },
+        "focus": {
+          "title": "Sound-Wave Focus Cancellation",
+          "desc": "Ambient noise reduction"
+        },
+        "anc": {
+          "title": "Deep Noise Cancellation",
+          "desc": "Active ANC"
+        }
+      }
+    }
+  }
+}

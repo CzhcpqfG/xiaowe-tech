@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>官网3.0原型图片索引 — 大声助听器</title>
+<style>
+  :root { --bg:#f5f5f7; --card:#fff; --text:#1d1d1f; --muted:#6e6e73; --accent:#1a73e8; --accent-bg:#e8f0fe; --line:#d2d2d7; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif; margin: 0; padding: 32px 24px; background: var(--bg); color: var(--text); line-height: 1.5; }
+  h1 { font-size: 24px; margin: 0 0 6px; font-weight: 600; }
+  h2 { font-size: 16px; margin: 32px 0 12px; font-weight: 600; color: var(--text); border-left: 3px solid var(--accent); padding-left: 10px; }
+  .meta { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
+  .legend { background: var(--card); padding: 14px 18px; border-radius: 10px; margin: 16px 0 24px; font-size: 13px; color: var(--muted); border: 1px solid var(--line); }
+  .legend b { color: var(--text); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .card { background: var(--card); border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.06); border: 1px solid var(--line); }
+  .card .thumb { background: #fafafa; min-height: 160px; display: flex; align-items: center; justify-content: center; padding: 10px; border-bottom: 1px solid var(--line); }
+  .card .thumb img { max-width: 100%; max-height: 200px; object-fit: contain; }
+  .card .info { padding: 10px 12px; font-size: 12px; }
+  .card .info b { font-size: 12px; font-weight: 600; display: block; margin-bottom: 4px; word-break: break-all; font-family: ui-monospace, "SF Mono", Consolas, monospace; }
+  .card .info .desc { color: var(--text); font-size: 12px; margin-bottom: 4px; }
+  .card .info .pos { color: var(--muted); font-size: 11px; }
+  .tag { display: inline-block; background: var(--accent-bg); color: var(--accent); padding: 1px 6px; border-radius: 3px; font-size: 10px; font-family: ui-monospace, monospace; margin-right: 4px; }
+</style>
+</head>
+<body>
+<h1>官网3.0原型图片索引</h1>
+<div class="meta">大声助听器 / Dasound · 来源: <code>官网3.0文案框架260718.xlsx</code> · 共 26 张图片</div>
+<div class="legend">
+  <b>原型结构说明：</b>PM 使用 Excel 作为可视化布局工具，将 26 张图片放置在 24×26 的单元格网格中（共 228 个绘图对象，其中 25 个为图片占位）。
+  每张图片代表一个 UI 模块或视觉素材。下方按内容主题分组展示，文件名已重命名为语义化英文 snake_case 风格，便于开发引用。
+</div>
+
+<h2>1. 品牌人物 / 团队 (左列)</h2>
+<div class="grid">
+  <div class="card"><div class="thumb"><img src="founder_card_wanghai.png" loading="lazy"></div><div class="info"><b>founder_card_wanghai.png</b><div class="desc">王海创始人/董事长卡片</div><div class="pos"><span class="tag">A6:E6</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="team_exec_card.png" loading="lazy"></div><div class="info"><b>team_exec_card.png</b><div class="desc">团队高管卡片（市场/研发/运营总监）</div><div class="pos"><span class="tag">A6:E7</span></div></div></div>
+</div>
+
+<h2>2. 技术原理 / 产品 (中列上)</h2>
+<div class="grid">
+  <div class="card"><div class="thumb"><img src="tech_ric_diagram.png" loading="lazy"></div><div class="info"><b>tech_ric_diagram.png</b><div class="desc">RIC助听器技术原理图</div><div class="pos"><span class="tag">A8:E8</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="product_ric_render.png" loading="lazy"></div><div class="info"><b>product_ric_render.png</b><div class="desc">RIC耳背式助听器渲染图</div><div class="pos"><span class="tag">F6:J6</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="product_series_4models.png" loading="lazy"></div><div class="info"><b>product_series_4models.png</b><div class="desc">4款助听器产品系列图</div><div class="pos"><span class="tag">F14:J14</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="remote_audiology_consultation.png" loading="lazy"></div><div class="info"><b>remote_audiology_consultation.png</b><div class="desc">远程验配/视频咨询场景</div><div class="pos"><span class="tag">J14</span></div></div></div>
+</div>
+
+<h2>3. 资质 / 专利 (中列下，部分复用)</h2>
+<div class="grid">
+  <div class="card"><div class="thumb"><img src="patented_technology_certs.png" loading="lazy"></div><div class="info"><b>patented_technology_certs.png</b><div class="desc">国家专利技术证书矩阵（30+张）</div><div class="pos"><span class="tag">F10:J11</span><span class="tag">P14:S15</span> 复用2次</div></div></div>
+  <div class="card"><div class="thumb"><img src="cert_badges_iso_ce_fda.png" loading="lazy"></div><div class="info"><b>cert_badges_iso_ce_fda.png</b><div class="desc">ISO9001/CE/FDA 资质徽章</div><div class="pos"><span class="tag">F12:J13</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="certifications_registrations.png" loading="lazy"></div><div class="info"><b>certifications_registrations.png</b><div class="desc">医疗器械生产/经营/注册证书墙</div><div class="pos"><span class="tag">Q13:S14</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="own_factory_overview.png" loading="lazy"></div><div class="info"><b>own_factory_overview.png</b><div class="desc">自有工厂+研发+设备+专利介绍</div><div class="pos"><span class="tag">P13:S13</span></div></div></div>
+</div>
+
+<h2>4. 行业市场数据 (右列上)</h2>
+<div class="grid">
+  <div class="card"><div class="thumb"><img src="hearing_loss_grade_table.png" loading="lazy"></div><div class="info"><b>hearing_loss_grade_table.png</b><div class="desc">听力损失分级对照表（正常→完全丧失）</div><div class="pos"><span class="tag">P5:S5</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="china_hearing_loss_population.png" loading="lazy"></div><div class="info"><b>china_hearing_loss_population.png</b><div class="desc">中国听力障碍人数柱状图 2010-2030</div><div class="pos"><span class="tag">Q8:R9</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="hearing_aid_demand_trend.png" loading="lazy"></div><div class="info"><b>hearing_aid_demand_trend.png</b><div class="desc">中国助听器需求规模趋势 2000-2030</div><div class="pos"><span class="tag">P9:Q9</span></div></div></div>
+</div>
+
+<h2>5. 门店 / 二维码 (右列中)</h2>
+<div class="grid">
+  <div class="card"><div class="thumb"><img src="store_storefront_design.png" loading="lazy"></div><div class="info"><b>store_storefront_design.png</b><div class="desc">店铺形象设计（Bigsound标识）</div><div class="pos"><span class="tag">P16:Q16</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="qr_wechat_service.jpeg" loading="lazy"></div><div class="info"><b>qr_wechat_service.jpeg</b><div class="desc">微信客服二维码</div><div class="pos"><span class="tag">Q16:R16</span></div></div></div>
+</div>
+
+<h2>6. 信任背书模块 (右列下)</h2>
+<div class="grid">
+  <div class="card"><div class="thumb"><img src="kol_koc_testimonial_grid.png" loading="lazy"></div><div class="info"><b>kol_koc_testimonial_grid.png</b><div class="desc">KOL/KOC种草内容合集（3×4网格）</div><div class="pos"><span class="tag">Q18:S18</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="public_welfare_initiative.png" loading="lazy"></div><div class="info"><b>public_welfare_initiative.png</b><div class="desc">政企公益行动（政府/企业/社区义诊）</div><div class="pos"><span class="tag">Q17:S18</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="annual_brand_event.png" loading="lazy"></div><div class="info"><b>annual_brand_event.png</b><div class="desc">年度品牌活动（会议/演讲/检测现场）</div><div class="pos"><span class="tag">P17:Q18</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="local_life_map_groupbuying.png" loading="lazy"></div><div class="info"><b>local_life_map_groupbuying.png</b><div class="desc">本地生活入口（百度地图/高德/美团）</div><div class="pos"><span class="tag">P18:Q18</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="local_services_platforms_grid.png" loading="lazy"></div><div class="info"><b>local_services_platforms_grid.png</b><div class="desc">本地生活服务平台矩阵</div><div class="pos"><span class="tag">Q19:S19</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="official_social_media_matrix.png" loading="lazy"></div><div class="info"><b>official_social_media_matrix.png</b><div class="desc">自营官方号（小红书/公众号/抖音/微博/知乎）</div><div class="pos"><span class="tag">P19:Q19</span></div></div></div>
+</div>
+
+<h2>7. 创维生态产品 (顶部 - 参考素材)</h2>
+<div class="grid">
+  <div class="card"><div class="thumb"><img src="skyworth_adult_smartwatch.png" loading="lazy"></div><div class="info"><b>skyworth_adult_smartwatch.png</b><div class="desc">创维成人智能手表合集（C01/C02/R1/S8）</div><div class="pos"><span class="tag">K1:O1</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="skyworth_kids_smartwatch.png" loading="lazy"></div><div class="info"><b>skyworth_kids_smartwatch.png</b><div class="desc">创维儿童智能手表合集（T9/T10/Z1）</div><div class="pos"><span class="tag">K2:L2</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="skyworth_audio_hearing_product.png" loading="lazy"></div><div class="info"><b>skyworth_audio_hearing_product.png</b><div class="desc">创维音频/听力产品合集（OWS/TWS）</div><div class="pos"><span class="tag">K2:M2</span></div></div></div>
+</div>
+
+<h2>8. 招商政策 (未放置于工作表 - 媒体库备用)</h2>
+<div class="grid">
+  <div class="card"><div class="thumb"><img src="investment_policy_franchise.png" loading="lazy"></div><div class="info"><b>investment_policy_franchise.png</b><div class="desc">招商政策表格上半（投入/分成/推广）</div><div class="pos"><span class="tag">未放置</span></div></div></div>
+  <div class="card"><div class="thumb"><img src="franchise_policy_part2.png" loading="lazy"></div><div class="info"><b>franchise_policy_part2.png</b><div class="desc">招商政策表格下半（开店支持/KOC返现/结算）</div><div class="pos"><span class="tag">未放置</span></div></div></div>
+</div>
+
+<div class="legend" style="margin-top:32px;">
+  <b>说明：</b>原文件命名 <code>image1.png ~ image26.png</code> 已重命名为语义化名称。完整映射详见 <code>_mapping.md</code>。
+  图片可在新官网开发中直接通过 <code>/images/prototype/&lt;filename&gt;</code> 路径引用。
+</div>
+</body>
+</html>

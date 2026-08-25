@@ -1,0 +1,258 @@
+{
+  "hero": {
+    "title": "FAQ",
+    "subtitle": "FAQ · Everything you want to know about Xiaowei Health Technology",
+    "description": "Covering 37 high-frequency questions on company background, product technology, certification and service, purchase and use, hearing health education, and franchise partnership"
+  },
+  "ui": {
+    "searchPlaceholder": "Search keywords, e.g. \"What to do about poor hearing\"",
+    "searchEmpty": "No matching questions found. Please try another keyword or call 400-116-9566 for assistance",
+    "expandAll": "Expand all",
+    "collapseAll": "Collapse all",
+    "openAria": "Expand question",
+    "closeAria": "Collapse question",
+    "categoryLabel": "Category",
+    "qaCount": "{{count}} questions in total",
+    "contactCta": "Didn't find an answer? Contact us now",
+    "backToFaq": "Back to top of FAQ",
+    "categoryAll": "All"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "faq": "FAQ"
+  },
+  "categories": {
+    "company": {
+      "title": "Company Overview",
+      "subtitle": "Learn about Xiaowei Health Technology's company positioning, parent company strength, and brand portfolio"
+    },
+    "product": {
+      "title": "Product & Technology",
+      "subtitle": "Learn about the core technologies of the three major product lines: hearing aids, health smart watches, and Bluetooth headphones"
+    },
+    "qualification": {
+      "title": "Certification & Service",
+      "subtitle": "Learn about company qualifications, national medical certification, and Hearing Service Centers"
+    },
+    "purchase": {
+      "title": "Purchase & Use",
+      "subtitle": "Learn about hearing aid buying guides, fitting processes, and after-sales warranty"
+    },
+    "hearingHealth": {
+      "title": "Hearing Health Education",
+      "subtitle": "Learn about hearing loss classification, impact, and intervention options"
+    },
+    "invest": {
+      "title": "Franchise Partnership",
+      "subtitle": "Learn about the hearing health industry outlook, partnership policies, and franchise process"
+    }
+  },
+  "questions": {
+    "company": [
+      {
+        "q": "What does Xiaowei Health Technology do?",
+        "a": "Xiaowei Health Technology (Shenzhen) Co., Ltd. is a high-tech medical device and service company under Skyworth Group, dedicated to the integrated R&D, production, and marketing of smart wearable devices, acoustic and hearing health systems. The company focuses on cutting-edge technology R&D in the health smart wearable industry, covering areas such as cardiovascular and cerebral health monitoring, early warning and intervention, hearing assistance, hearing acoustics, and artificial intelligence. By aggregating resources from the Tencent Tianlain Lab, Skyworth's R&D, manufacturing and distribution capabilities, and Ping An Health services, it provides wearable health system solutions for health-conscious consumers and people with hearing impairment."
+      },
+      {
+        "q": "What is the relationship between Xiaowei Health Technology and Skyworth Group?",
+        "a": "Xiaowei Health Technology is a company under Skyworth Group (00751.HK / Skyworth Digital 000810.SZ). Founded in 1988, Skyworth Group ranked 380th on the 2025 China Top 500 Enterprises list, with businesses covering four major sectors: smart home appliances, smart system technology, new energy, and modern services. Xiaowei Health Technology carries Skyworth Group's strategic layout in the health smart wearable and acoustic hearing fields."
+      },
+      {
+        "q": "What brands does Xiaowei Health Technology own?",
+        "a": "Xiaowei Health Technology owns two major brands: 1) SKYWORTH — health smart watches (adult watches, children's phone watches) and smart Bluetooth headphones; 2) Bigsound — AI Chinese hearing aids. The two brands share Xiaowei Health Technology's R&D, production, acoustic algorithm, and medical service resources."
+      },
+      {
+        "q": "What is the background of Xiaowei Health Technology's founding team?",
+        "a": "Xiaowei Health Technology was founded by Wang Hai, who serves as Chairman. Wang Hai holds an EMBA from CEIBS (China Europe International Business School), formerly served as Vice President of Skyworth TV and General Manager of the Domestic Marketing Division, and led teams of over 10,000 to grow Skyworth from 15 billion to 30 billion, and then from 40 billion to 50 billion in sales. He is a serial entrepreneur. The core team includes COO Zheng Mingchun, CMO Wen Yefeng, R&D Director Long Haojun (20+ years of electronic audio R&D experience, 9 years of hearing aid R&D experience), and Production Director Nan Pengsheng, among other senior multidisciplinary elites."
+      },
+      {
+        "q": "What is Xiaowei Health Technology's core business layout?",
+        "a": "Xiaowei Health Technology's business covers three major product lines: 1) AI Chinese hearing aids (Bigsound brand, 4 form factors with 12 models); 2) Health smart watches (SKYWORTH brand, adult watches + children's phone watches); 3) Smart Bluetooth headphones (SKYWORTH brand, OWS open-ear + TWS in-ear). It also has a hearing health service layout (Bigsound Hearing Service Center + remote fitting) and a health service cloud platform, covering the full chain of R&D, production, sales, and service."
+      }
+    ],
+    "product": [
+      {
+        "q": "What product lines does Xiaowei Health Technology have?",
+        "a": "Xiaowei Health Technology has three major product lines: 1) AI Chinese hearing aids — Bigsound brand, 4 form factors with 12 models, covering mild to profound hearing loss, with prices ranging from ¥599 - ¥15999; 2) Health smart watches — SKYWORTH brand, including adult health watches (C01 Solar Edition / C02 Solar Edition / R1 / S8) and children's phone watches (T9 / T10 / Z1); 3) Smart Bluetooth headphones — SKYWORTH brand, including OWS open-ear (SEB002 / SEP002 / SES002) and TWS in-ear (SEP001)."
+      },
+      {
+        "q": "What does AI Chinese hearing aid mean?",
+        "a": "AI Chinese hearing aid is a concept pioneered by Bigsound, creating hearing aids tailored to Chinese language context, tones, fitting formulas, and Chinese daily life scenarios, delivering clearer and more comfortable hearing for Chinese users. Featuring a 5-core heterogeneous 12nm fully digital processor, Chinese Enhancement Algorithm 2.0, and AI computing power of 1.5 billion operations per second, with full-stack AI across both hardware edge processing and fitting services, it is better suited for Chinese users."
+      },
+      {
+        "q": "What core technologies does Bigsound hearing aid have?",
+        "a": "Core technologies of Bigsound AI Chinese hearing aids include: 1) 5-core heterogeneous 12nm fully digital processor; 2) Chinese Enhancement Algorithm 2.0 (optimized for Chinese tones, in partnership with Tencent Tianlain Lab); 3) AI computing power of 1.5 billion operations per second (multiply-accumulate operations); 4) HTT non-stationary noise reduction algorithm; 5) AI AGC automatic gain control; 6) 65dB SNR array microphone high-fidelity pickup; 7) DASH dual howling suppression / AFC adaptive feedback cancellation; 8) INR impulsive noise suppression algorithm; 9) HFMR high-frequency millisecond reshaping."
+      },
+      {
+        "q": "What product forms does Bigsound hearing aid offer?",
+        "a": "Bigsound AI Chinese hearing aids come in 4 form factors with 12 models: 1) Behind-the-ear (BTE) (DAB005 Premium Edition, etc.); 2) In-the-ear (ITE) (DAB006, DAQ001 Prestige Edition, etc.); 3) Neck-worn (DAB007, SAN001, SAN002 Preferred Edition, SAN003 Prestige Edition, etc.); 4) Bone-conduction (SAB001, SAP001, SAQ002 Prestige Edition, SAQ003, BO, etc.). Covering mild to profound hearing loss needs, with prices ranging from ¥599 - ¥15999."
+      },
+      {
+        "q": "What health monitoring features do the health smart watches have?",
+        "a": "SKYWORTH health smart watches integrate 15 core health features: heart rate monitoring, blood oxygen monitoring, positioning, exercise health, sleep monitoring, body temperature measurement, blood pressure monitoring, ECG monitoring, stress monitoring, women's health, breathing training, geofencing, remote shutter, music, and one-touch SOS emergency call, enabling all-day, all-around health management with real-time analysis and early warning via the AI + health service cloud platform."
+      },
+      {
+        "q": "What are the core technologies of the smart Bluetooth headphones?",
+        "a": "SKYWORTH smart Bluetooth headphones feature 10 acoustic technologies: multi-scenario sound, directional channel audio transmission, HiFi lossless sound quality, SBC audio decoding, sound wave focused noise cancellation, deep noise reduction, long battery life (8 hours per charge + 32 hours total), call noise reduction (dual-mic ENC), low-latency mode (60ms gaming-grade), and water and sweat resistance (IPX5), covering both OWS open-ear and TWS in-ear form factors."
+      },
+      {
+        "q": "What R&D patents does Xiaowei Health Technology have?",
+        "a": "Xiaowei Health Technology holds nearly 100 patents in hearing aids, acoustics, smart health wearables, and related fields, including 30+ hearing aid-related patents. It has also been certified as a National High-Tech Enterprise, Innovative SME, and Technology-based SME, with a self-developed R&D team of 20+ people and a self-owned factory equipped with 30+ production equipment, and has reached a strategic partnership with the Tencent Tianlain Lab on hearing aid algorithms."
+      }
+    ],
+    "qualification": [
+      {
+        "q": "What company qualifications does Xiaowei Health Technology have?",
+        "a": "Xiaowei Health Technology has been certified as a National High-Tech Enterprise, Innovative SME, and Technology-based SME, with nearly 100 patents in hearing aids, acoustics, and smart health wearables. Its Bigsound hearing aids hold 5 national medical certification certificates, and SKYWORTH children's phone watches and health early-warning watches have passed reviews by China Mobile, China Telecom, and China Unicom group level and entered their national marketing promotion directories."
+      },
+      {
+        "q": "Does Bigsound hearing aid have medical certification?",
+        "a": "Bigsound hearing aids hold complete national medical certification, including 5 certificates: 1) ITE hearing aid registration certificate; 2) BTE hearing aid registration certificate; 3) Medical device manufacturing license; 4) BTE RIC hearing aid registration certificate; 5) Body-worn hearing aid registration certificate. Medical device registration certificate number: Yue Xie Zhu Zhun 20232192086; Internet Drug Information Service Qualification Certificate: (Yue) - Commercial - 2022-0419."
+      },
+      {
+        "q": "Does Bigsound hearing aid have clinical medical accreditation?",
+        "a": "Bigsound Chinese hearing aids have undergone multiple clinical research studies at top-tier hospitals including Shandong ENT Hospital and Sun Yat-sen Memorial Hospital of Sun Yat-sen University, including \"Feasibility and Preliminary Efficacy Analysis of Community-based Hearing Rehabilitation for the Elderly\" and \"Hearing Improvement Effects for Severe Age-Related Deafness,\" and have received clinical validation. In January 2025, a non-inferiority study of Bigsound Chinese hearing aids was launched with Sun Yat-sen Memorial Hospital of Sun Yat-sen University."
+      },
+      {
+        "q": "Where is the Bigsound Hearing Service Center?",
+        "a": "The direct-operated Bigsound Hearing Service Center is located at: Shop 238, 2nd Floor, East Zone, Xihuicheng, Luohu District, Shenzhen (Skyworth Bigsound Hearing Service Center, 700m walk from Exit C of Tai'an Station on Metro Line 5), consultation phone 13116993115. The service center is equipped with million-yuan diagnostic equipment comparable to top-tier hospitals, with professional services provided by national-level clinical audiologists. Jointly operated stores are being rolled out nationwide."
+      },
+      {
+        "q": "What equipment does the Bigsound Hearing Service Center have?",
+        "a": "The Bigsound Hearing Service Center is equipped with million-yuan diagnostic equipment comparable to top-tier hospitals: 1) Real-ear analyzer (imported from the US, for hearing aid outcome evaluation); 2) HD professional otoscope (optical microscope with photo and video recording); 3) Medical-grade audiometric test booth (noise < 25dB, professional sound field environment); 4) International standard audiometer (imported from the US, pure-tone and speech sound field testing); 5) Professional fitting and tuning equipment (self-developed, fitting algorithm tuning); 6) Cleaning and maintenance instruments (professional hearing aid equipment, extending service life)."
+      },
+      {
+        "q": "Does Xiaowei Health Technology offer remote fitting services?",
+        "a": "Yes. Bigsound offers otologist-grade \"Sound Prescription\" remote AI fitting services. The self-developed \"Sound Prescription\" fitting system uses a front-back collaborative model: front-end fitting specialists follow SOPs with fully digital diagnostics, while back-end audiologists develop personalized sound prescription plans. The service is completed in three steps: 1) The fitting specialist initiates the request and data is uploaded automatically; 2) The audiologist delivers the sound prescription; 3) The fitting specialist applies the sound prescription and guides the user through listening validation."
+      }
+    ],
+    "purchase": [
+      {
+        "q": "What should I do about poor hearing?",
+        "a": "For poor hearing, we recommend timely three-step intervention: 1) Step 1: Visit a professional Hearing Service Center for hearing tests such as pure-tone audiometry to determine the degree and type of hearing loss; 2) Step 2: Choose a hearing aid with the guidance of a professional fitting specialist (hearing aids are classified as national Class II medical devices and must be professionally fitted, otherwise secondary hearing damage may occur); 3) Step 3: Wear it long-term with regular tuning, combined with rehabilitation training. Bigsound Hearing Service Centers are equipped with million-yuan diagnostic equipment comparable to top-tier hospitals, offering free hearing test appointments. Service hotline: 400-116-9566."
+      },
+      {
+        "q": "Do I have to wear a hearing aid if my hearing is poor?",
+        "a": "Hearing loss is irreversible, but timely hearing aid use can prevent progression and is the most effective intervention. With timely hearing aid fitting and hearing rehabilitation services, the vast majority of people with hearing impairment can have their hearing compensated, participate in social activities like people with normal hearing, and improve their quality of life. If hearing loss reaches moderate (41-60dB) or above and affects daily communication, timely hearing aid use is recommended."
+      },
+      {
+        "q": "How do I choose the right hearing aid for me?",
+        "a": "Choosing a hearing aid follows 4 steps: 1) Hearing assessment: Visit a professional hearing center for pure-tone audiometry to determine the degree and type of hearing loss; 2) Product selection: Choose form factor (BTE/ITE/neck-worn/bone-conduction) and price tier based on hearing loss degree and lifestyle; 3) Trial validation: Try and tune with a fitting specialist; 4) Regular tuning: Follow-up tuning after 4 weeks of use, with long-term maintenance. Bigsound provides full-lifecycle service, with 4 pre-sales stages (expert consultation/hearing assessment/product selection/rehabilitation advice) + 8 during-and-after-sales guarantees (personal hearing advisor/replacement-only/no-repair/usage guidance/4-week care/extended warranty/regular tuning/lifetime membership/national warranty)."
+      },
+      {
+        "q": "Where can I buy a hearing aid?",
+        "a": "Bigsound hearing aids can be purchased through the following channels: 1) Bigsound Hearing Service Center direct-operated store: Shop 238, 2nd Floor, East Zone, Xihuicheng, Luohu District, Shenzhen (700m walk from Exit C of Tai'an Station on Metro Line 5), phone 13116993115; 2) Search \"Skyworth hearing aid\" flagship stores on Tmall/JD.com/Pinduoduo; 3) National jointly operated stores (continuously expanding). Hearing aids are classified as national Class II medical devices. Please purchase through authorized channels and have them fitted by a professional fitting specialist."
+      },
+      {
+        "q": "How is a hearing aid fitted?",
+        "a": "Bigsound hearing aid fitting uses the \"Sound Prescription\" front-back collaborative professional fitting system, completing professional fitting in three steps: 1) Front-end: The fitting specialist receives/consults the user, performs standardized otologic hearing tests, and assists with product selection and trial; 2) Back-end: The audiologist develops a personalized \"Sound Prescription\" plan based on the test data; 3) The fitting specialist downloads the prescription and guides the user through listening validation and tuning, then provides usage instructions and rehabilitation guidance. The entire process is completed collaboratively by national-level clinical audiologists and back-end audiologists."
+      },
+      {
+        "q": "How long is the hearing aid warranty?",
+        "a": "Bigsound hearing aids come with a 2-year warranty (SKYWORTH AI Chinese hearing aids come with a 1-year warranty). Within the warranty period, non-artificial damage is covered by a \"replacement-only, no repair\" policy (all parts are replaced, not repaired). For quality issues within the warranty period, please contact your purchasing dealer or call the national service hotline at 400-116-9566, or consult via the WeChat Official Account \"Skyworth Health Smart Wearable\"."
+      },
+      {
+        "q": "What precautions should I take when using a hearing aid?",
+        "a": "1) Hearing aids are classified as national Class II medical devices and must be used under the guidance of a doctor or professional fitting specialist, otherwise secondary hearing damage may occur; 2) Hearing aids only assist hearing and cannot restore normal hearing or stop hearing damage caused by organic pathology; 3) Rehabilitation training and lip-reading guidance may be needed after wearing; 4) Long-term wear and good wearing habits are recommended; 5) Avoid moisture, high temperatures, drops, and severe vibration; 6) Do not wear during X-ray, MR, CT scans or other radiation therapy; 7) Store in the charging case when not in use for extended periods."
+      }
+    ],
+    "hearingHealth": [
+      {
+        "q": "How is hearing loss classified?",
+        "a": "Hearing loss is classified by World Health Organization (WHO) standards: 1) Normal (0-25dB HL); 2) Mild (26-40dB HL): difficulty hearing soft speech; 3) Moderate (41-60dB HL): difficulty hearing normal speech, hearing aids recommended; 4) Severe (61-80dB HL): difficulty hearing loud speech, hearing aids required; 5) Profound (>80dB HL): barely hears any sound, requires powerful hearing aids or cochlear implants. Hearing loss is irreversible, but timely hearing aid use can prevent progression and is the most effective intervention."
+      },
+      {
+        "q": "Is age-related hearing decline normal?",
+        "a": "Age-related hearing decline (presbycusis) is a common physiological phenomenon, with 1/3 of people over 65 having hearing impairment. However, \"common\" does not mean \"normal and requires no intervention\". People with hearing impairment are 5 times more likely to develop cognitive disorders, and hearing damage is one of the most important factors in dementia (accounting for 1/4). Regular hearing checks are recommended for seniors, and timely hearing aid use is advised for moderate or greater hearing loss to reduce the risks of dementia, falls, and depression."
+      },
+      {
+        "q": "What are the harms of hearing loss?",
+        "a": "Hearing damage has a major impact on the current and future quality of life of older adults: 1) Dementia: People with hearing impairment are 5 times more likely to develop cognitive disorders, with hearing damage as the most important factor accounting for 1/4; 2) Increased falls: People with 25dB mild hearing loss fall 3 times as often as normal, with each 10dB decrease increasing fall probability by 1.4 times; 3) Depression: 8.36% of people with hearing impairment have chronic diseases, and 30% have depression. Without timely action, global annual losses reach 981 billion USD, equivalent to the Netherlands' annual GDP."
+      },
+      {
+        "q": "How many people in China have hearing loss?",
+        "a": "According to WHO data, 1.6 billion people worldwide had hearing loss in 2019, accounting for 1/5 of the global population. In 2021, China had 70 million+ people with bilateral moderate hearing loss, projected to reach 100 million and 130 million by 2035 and 2050 respectively. Globally, 430 million people with moderate or greater hearing damage need hearing aids, and by 2050 the global hearing loss population is expected to reach 2.5 billion. China's hearing aid market potential will exceed 120 billion yuan."
+      },
+      {
+        "q": "What is the hearing aid adoption rate in China?",
+        "a": "The hearing aid adoption rate among people with hearing loss in China is less than 5% (95% do not wear them), far below developed countries such as France/UK, US, and Japan. Reasons include three main aspects: 1) Low user awareness: 67% of seniors do not know their hearing has declined, and only 7.4% of ear disease patients in China have received hearing tests; 2) Low government awareness: Children's subsidies are well-established, but only Beijing/Shanghai/Guangdong/Fujian and a few other cities offer subsidies for seniors; 3) Industry conditions: Insufficient domestic attention, foreign product and technology monopolies, and high purchase costs."
+      },
+      {
+        "q": "Can hearing loss be cured?",
+        "a": "Most hearing impairment is irreversible (sensorineural hearing loss), but timely hearing aid use can prevent progression and is the most effective intervention. With timely hearing aid fitting and hearing rehabilitation services, the vast majority of people with hearing impairment can have their hearing compensated, participate in social activities like people with normal hearing, and improve their quality of life. The WHO targets a 50% hearing aid adoption rate by 2030, and China still has a significant gap."
+      }
+    ],
+    "invest": [
+      {
+        "q": "What are the prospects of the hearing health industry?",
+        "a": "The hearing health industry has \"three highs and one low\" characteristics: 1) High prevalence: Hearing loss population accounts for over 20% of the global population, projected to reach 2.5 billion by 2050; 2) High impact: Without timely intervention, annual losses reach 981 billion USD (equivalent to the Netherlands' annual GDP); 3) High intervention potential: Hearing impairment is irreversible, but timely hearing aid use can prevent progression and is the most effective intervention; 4) Low awareness: 95% of people with hearing loss in China do not wear hearing aids, with huge market potential. China's hearing aid market potential will exceed 120 billion yuan, an industry benefiting from population aging and maintaining high long-term growth."
+      },
+      {
+        "q": "What are the advantages of partnering with Xiaowei Health Technology franchise?",
+        "a": "Xiaowei Health Technology franchise offers three major advantages: \"great track + favorable policies + strong brand\": 1) Great track: An industry benefiting from population aging, with sustained high long-term growth; 2) Favorable policies: 14 ministries jointly issued a three-year action plan for rehabilitation assistive devices, listing hearing aids as one of 6-8 core sub-sectors, with the new national safety standard for hearing aids officially implemented on July 1, 2026; 3) Strong brand: Part of the well-known listed Skyworth Group, with full coverage of all degrees (12 products), self-developed R&D and self-owned factory (20+ person R&D team, 30+ production equipment, 50+ patents), and complete medical certification."
+      },
+      {
+        "q": "What is the Xiaowei Health Technology franchise policy?",
+        "a": "Xiaowei Health Technology offers a comprehensive support partnership policy with safety-net guarantees: 1) Full-process store-opening service: All-around support for site selection/renovation/display/staffing/training; 2) Expert full-process mentoring: Quick onboarding even with 0 experience, with hearing experts and brand experts providing dual-directional support, and professional fitting specialists stationed in-store; 3) Omnichannel marketing empowerment: Online full-channel traffic support + offline million-yuan promotional resources; 4) Headquarters operations safety-net: Fully managed new media operations, with targeted traffic directly channeled to partner stores. Contracts start from one year, with 20% of partnership fees rebated for each full year of partnership."
+      },
+      {
+        "q": "How do I contact Xiaowei Health Technology for franchise partnership?",
+        "a": "Xiaowei Health Technology is recruiting city partners nationwide. You can inquire about franchising through: 1) Service hotline: 400-116-9566 (9:00-18:00); 2) Company address: Room 720, Building A, Xingyi 1993 Digital Fashion Industrial Park, Dalang Street, Longhua District, Shenzhen; 3) Online consultation: Enterprise WeChat customer service https://work.weixin.qq.com/kfid/kfc48e42f711d1aaf9a; 4) Franchise page: https://www.xiaowe.cc/zh-CN/invest."
+      },
+      {
+        "q": "What favorable policies are there in the hearing health industry?",
+        "a": "The hearing health industry has recently seen multiple favorable policies: 1) Industrial planning support: 14 ministries jointly issued the \"Three-Year Action Plan for Capacity Expansion and Quality Improvement of the Rehabilitation Assistive Devices Industry (2026-2028)\", listing hearing aids as one of 6-8 core sub-sectors to be strengthened and optimized; 2) Hearing health special action: The \"Senior Hearing Health Promotion Action (2024-2027)\" was launched in 2024; 3) Centralized procurement price reduction: National subsidy policies have significantly reduced hearing reconstruction costs for hearing-impaired groups; 4) National standard upgrade: The new national safety standard for hearing aids will be officially implemented from July 1, 2026, regulating industry access."
+      },
+      {
+        "q": "Can I join the Xiaowei Health Technology franchise with 0 experience?",
+        "a": "Yes. Xiaowei Health Technology offers \"expert full-process mentoring with worry-free in-store implementation\" service, allowing quick onboarding even with 0 experience. Hearing experts and brand experts provide dual-directional mentoring, from product knowledge to sales skills; professional fitting specialists are stationed in-store to ensure service and professionalism are delivered in sync. Headquarters also provides fully managed new media operations support, covering account positioning, content production, live-streaming traffic, and private domain conversion across the entire process, with no need for franchisees to operate independently."
+      }
+    ]
+  },
+  "product": {
+    "sectionTitle": "Hearing Aid Purchase FAQ",
+    "sectionSubtitle": "Must-read before purchase · About products, technology, and fitting",
+    "viewAll": "View all FAQs",
+    "items": [
+      {
+        "q": "What does AI Chinese hearing aid mean?",
+        "a": "AI Chinese hearing aid is a concept pioneered by Bigsound, creating hearing aids tailored to Chinese language context, tones, fitting formulas, and Chinese daily life scenarios, delivering clearer and more comfortable hearing for Chinese users. Featuring a 5-core heterogeneous 12nm processor, Chinese Enhancement Algorithm 2.0, and AI computing power of 1.5 billion operations per second, with full-stack AI across both hardware edge processing and fitting services."
+      },
+      {
+        "q": "What product forms does Bigsound hearing aid offer?",
+        "a": "Bigsound AI Chinese hearing aids come in 4 form factors with 12 models: BTE, ITE, neck-worn, and bone-conduction, covering mild to profound hearing loss needs, with prices ranging from ¥599 - ¥15999."
+      },
+      {
+        "q": "What is the difference between Chinese hearing aids and traditional hearing aids?",
+        "a": "Bigsound Chinese hearing aids break through tradition in 5 dimensions: 1) Non-stationary noise reduction (HTT algorithm); 2) AI hearing assistance (hardware edge processing + full-stack AI for fitting services); 3) Hardware-software integration (DASH dual howling suppression / AFC adaptive feedback cancellation); 4) Diversified scenarios; 5) Diversified product forms."
+      },
+      {
+        "q": "How is a hearing aid fitted?",
+        "a": "Bigsound hearing aid fitting uses the \"Sound Prescription\" front-back collaborative professional fitting system, completed in three steps: 1) Front-end: The fitting specialist receives and consults the user, performs standardized otologic hearing tests, and assists with product selection and trial; 2) Back-end: The audiologist develops a personalized \"Sound Prescription\" plan; 3) The fitting specialist downloads the prescription and guides the user through listening validation and tuning. The entire process is completed collaboratively by national-level clinical audiologists and back-end audiologists."
+      }
+    ]
+  },
+  "invest": {
+    "sectionTitle": "Franchise Partnership FAQ",
+    "sectionSubtitle": "About industry outlook, partnership policies, and franchise process",
+    "viewAll": "View all FAQs",
+    "items": [
+      {
+        "q": "What are the prospects of the hearing health industry?",
+        "a": "The hearing health industry has \"three highs and one low\" characteristics: high prevalence (global hearing loss population over 20%), high impact (annual losses of 981 billion USD without timely intervention), high intervention potential (timely hearing aid use can prevent progression), and low awareness (95% of hearing-impaired people in China do not wear hearing aids). China's hearing aid market potential will exceed 120 billion yuan, an industry benefiting from population aging."
+      },
+      {
+        "q": "What is the Xiaowei Health Technology franchise policy?",
+        "a": "Comprehensive support with safety-net guarantees: 1) Full-process store-opening service (site selection/renovation/display/staffing/training); 2) Expert full-process mentoring (quick onboarding even with 0 experience); 3) Omnichannel marketing empowerment (online traffic + offline promotion); 4) Headquarters operations safety-net (fully managed new media operations). Contracts start from one year, with 20% of partnership fees rebated for each full year of partnership."
+      },
+      {
+        "q": "Can I join the Xiaowei Health Technology franchise with 0 experience?",
+        "a": "Yes. Xiaowei Health Technology offers \"expert full-process mentoring with worry-free in-store implementation\" service, allowing quick onboarding even with 0 experience. Hearing experts and brand experts provide dual-directional mentoring, with professional fitting specialists stationed in-store. Headquarters also provides fully managed new media operations support."
+      },
+      {
+        "q": "How do I contact Xiaowei Health Technology for franchise partnership?",
+        "a": "Service hotline: 400-116-9566 (9:00-18:00). Company address: Room 720, Building A, Xingyi 1993 Digital Fashion Industrial Park, Dalang Street, Longhua District, Shenzhen. Enterprise WeChat customer service: https://work.weixin.qq.com/kfid/kfc48e42f711d1aaf9a."
+      }
+    ]
+  }
+}

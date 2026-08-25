@@ -1,0 +1,58 @@
+{
+  "name": "小维健康科技官网",
+  "short_name": "小维健康",
+  "description": "小维健康科技（深圳）有限公司 — 创维生态下的健康科技公司，旗下拥有 Bigsound 大声 与 SKYWORTH 创维 两大品牌",
+  "start_url": "/zh-CN/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#05a045",
+  "lang": "zh-CN",
+  "categories": ["health", "medical", "shopping"],
+  "icons": [
+    {
+      "src": "/images/common/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/images/common/logo.webp",
+      "sizes": "180x180",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/common/logo.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/common/logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "AI 中文助听器",
+      "short_name": "助听器",
+      "url": "/zh-CN/product",
+      "icons": [{ "src": "/images/common/logo.webp", "sizes": "192x192" }]
+    },
+    {
+      "name": "招商加盟",
+      "short_name": "加盟",
+      "url": "/zh-CN/invest",
+      "icons": [{ "src": "/images/common/logo.webp", "sizes": "192x192" }]
+    },
+    {
+      "name": "常见问题",
+      "short_name": "FAQ",
+      "url": "/zh-CN/faq",
+      "icons": [{ "src": "/images/common/logo.webp", "sizes": "192x192" }]
+    }
+  ]
+}

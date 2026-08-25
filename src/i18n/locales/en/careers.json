@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "mainTitle": "Dedicated to Hearing Health",
+    "mainTitleSecond": "Talents Welcomed Worldwide",
+    "subtitle": "Join the Xiaowei Family"
+  },
+  "companyIntroTitle": "Xiaowei Health Tech",
+  "companyIntroAlt": "Xiaowei Health Tech",
+  "companyIntro": [
+    "Xiaowei Health Technology is a high-tech medical device and service company under the publicly listed Skyworth Group, dedicated to the integrated R&D, production and marketing of smart wearable devices, acoustic and hearing-health systems. The company operates two flagship brands — SKYWORTH and BigSound — focusing on AI Chinese hearing aids, health smartwatches, kids' phone watches, Bluetooth earphones and other wearable products.",
+    "The company brings together a senior, cross-disciplinary team of leading domestic and international experts in smart hardware, acoustics and audiology, algorithms, and consumer-electronics brand marketing with 20 years of industry experience, and holds nearly a hundred patents in hearing aids, acoustics, and health smart wearables. Guided by a brand mission of building \"healthy, smart\" products with a people-first philosophy, Xiaowei Health leverages technology to power proactive wellness, helping people transform their lifestyles so everyone can enjoy a healthy, beautiful life.",
+    "The company focuses on frontier R&D in health smart wearables, spanning cardio-cerebral health monitoring, early warning and intervention, hearing assistance, hearing acoustics, and artificial intelligence. By aggregating resources from the Tencent Tianlai Lab, Skyworth's R&D and supply-chain capabilities, and Ping An Health services, Xiaowei Health delivers wearable health-system solutions for health-conscious users and people with hearing loss, creating a healthy and beautiful life for every user.",
+    "SKYWORTH kids' phone watches and health early-warning watches have passed review by China Mobile, China Telecom and China Unicom at the group level, and have been added to their national marketing catalogs. Related smart wearable products and services are widely deployed across smart campuses, education, senior care, health community management, and home photovoltaic systems.",
+    "Facing a Chinese hearing-aid market long monopolized by foreign capital in technology, products and channels, BigSound pioneered the Chinese hearing aid concept, dedicated to developing hearing-aid products better suited to Chinese-language contexts — with more natural sound and better fit for Chinese daily-life scenarios. Committed to breaking the blockade and monopoly of the foreign Big Five hearing-aid groups, BigSound provides Chinese users with comparable professional medical-grade hearing aids, delivering stronger performance, superior listening experience, and better value. The brand aims to build China's national hearing-aid brand, drive hearing-aid adoption, benefit people with hearing loss, and safeguard the health of older adults."
+  ],
+  "categoryTitle": "Job Categories",
+  "categories": {
+    "tech": { "desc": "Hearing algorithms / Acoustics / Hardware R&D" },
+    "manufacturing": { "desc": "In-house factory / Lean manufacturing" },
+    "marketing": { "desc": "Audiologists / Hearing aid fitters / Market expansion" },
+    "admin": { "desc": "Support roles / Comprehensive functions" }
+  },
+  "tabs": {
+    "all": "All",
+    "tech": "Tech R&D",
+    "manufacturing": "Manufacturing",
+    "marketing": "Marketing",
+    "admin": "HR, Admin & Finance"
+  },
+  "jobListTitle": "Open Positions",
+  "jobListNote": "{{count}} positions in total (continuously updated)",
+  "noPositions": "No positions found",
+  "jobAttrLabels": {
+    "location": "Location",
+    "category": "Category",
+    "headcount": "Headcount",
+    "uploadDate": "Date Posted"
+  },
+  "jobs": {
+    "1": { "name": "Senior Hearing Aid R&D Manager", "location": "Longhua, Shenzhen", "headcount": "2" },
+    "2": { "name": "Hearing Aid R&D Engineer", "location": "Longhua, Shenzhen", "headcount": "Multiple" },
+    "3": { "name": "Manufacturing Position (Placeholder)", "location": "Longhua, Shenzhen", "headcount": "2" },
+    "4": { "name": "Senior Audiologist", "location": "Luohu, Shenzhen", "headcount": "Multiple" },
+    "5": { "name": "Intermediate Hearing Aid Fitter", "location": "Luohu, Shenzhen", "headcount": "Multiple" },
+    "6": { "name": "Junior Hearing Aid Fitter", "location": "Luohu, Shenzhen", "headcount": "Multiple" },
+    "7": { "name": "HR & Admin Manager", "location": "Longhua, Shenzhen", "headcount": "1" },
+    "8": { "name": "Admin Assistant", "location": "Longhua, Shenzhen", "headcount": "1" }
+  },
+  "benefitsTitle": "Benefits",
+  "benefits": {
+    "0": { "title": "Social Insurance & Housing Fund", "desc": "Statutory social insurance and housing fund contributions" },
+    "1": { "title": "Paid Annual Leave", "desc": "Statutory annual leave + company welfare leave" },
+    "2": { "title": "Holiday Benefits", "desc": "Statutory holiday gifts / Birthday care" },
+    "3": { "title": "Annual Health Checkup", "desc": "Free annual health examination" },
+    "4": { "title": "Training & Promotion", "desc": "Comprehensive training system + dual-track promotion path" },
+    "5": { "title": "Team Building", "desc": "Regular team building / Department activities / Afternoon tea" }
+  },
+  "applyTitle": "How to Apply",
+  "applyDesc": "Please send your resume to the company email. Use the subject line \"Position + Name + Contact\"",
+  "applyItems": {
+    "hotline": { "label": "Hotline", "value": "400-116-9566" },
+    "email": { "label": "Company Email", "value": "admin@xiaowe.cc" },
+    "address": { "label": "Company Address", "value": "Room 720, Building A, Xingyi 1993 Digital Fashion Industrial Park, Dalang Street, Longhua District, Shenzhen" }
+  }
+}

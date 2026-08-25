@@ -1,0 +1,50 @@
+{
+  "batch_id": "20260721_124934",
+  "batch_plan_path": "D:\\VibeTest\\bigsound\\aigpic\\batch_plan_hero_products_v2.json",
+  "total": 3,
+  "done": 3,
+  "ok": 3,
+  "fail": 0,
+  "running": 0,
+  "started_at": 1784609374,
+  "updated_at": 1784609436,
+  "eta_seconds": 0,
+  "concurrency": 3,
+  "save_to": "d:\\VibeTest\\bigsound\\public\\images\\homepage_v3",
+  "finished": true,
+  "pages": [
+    {
+      "index": 1,
+      "name": "AI中文助听器产品图v2",
+      "status": "ok",
+      "out": "hero_hearing_aid.png",
+      "saved_to": "d:\\VibeTest\\bigsound\\public\\images\\homepage_v3\\hero_hearing_aid.png",
+      "prompt_used": "主prompt",
+      "started_at": 1784609374,
+      "cost_seconds": 51.76,
+      "error": null
+    },
+    {
+      "index": 2,
+      "name": "健康智能手表产品图v2",
+      "status": "ok",
+      "out": "hero_smartwatch.png",
+      "saved_to": "d:\\VibeTest\\bigsound\\public\\images\\homepage_v3\\hero_smartwatch.png",
+      "prompt_used": "主prompt",
+      "started_at": 1784609374,
+      "cost_seconds": 61.22,
+      "error": null
+    },
+    {
+      "index": 3,
+      "name": "智能蓝牙耳机产品图v2",
+      "status": "ok",
+      "out": "hero_earbuds.png",
+      "saved_to": "d:\\VibeTest\\bigsound\\public\\images\\homepage_v3\\hero_earbuds.png",
+      "prompt_used": "主prompt",
+      "started_at": 1784609374,
+      "cost_seconds": 41.25,
+      "error": null
+    }
+  ]
+}

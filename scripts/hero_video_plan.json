@@ -1,0 +1,36 @@
+{
+  "version": "v2_15s",
+  "duration_per_shot": 3,
+  "total_shots": 5,
+  "video_total_duration": 15,
+  "aspect_ratio": "16:9",
+  "resolution": "1280x720",
+  "product_reference": "public/images/products/product_bigsound_br.png",
+  "shots": [
+    {
+      "name": "shot1_product_macro",
+      "image_prompt": "High-end commercial product photography, extreme macro close-up of a modern behind-the-ear hearing aid in soft pearl white and silver finish, resting on a clean white surface with subtle green accent reflection, soft studio lighting from upper left creating gentle highlights on the device, shallow depth of field with creamy bokeh, shot on Canon EOS R5 with 100mm macro lens, f/4, premium medical device magazine aesthetic, white and light gray tones with brand green accent, no text, no watermark, no garbled characters",
+      "video_prompt": "Slow smooth push-in camera movement toward the hearing aid, ultra subtle parallax, soft light shift, luxury product reveal, 4 seconds"
+    },
+    {
+      "name": "shot2_wearing_scene",
+      "image_prompt": "High-end lifestyle editorial photography, a dignified 65-year-old Asian man gently placing a hearing aid behind his ear in a bright modern bedroom, soft natural morning daylight from large windows, calm and dignified mood, neutral white and light gray interior with subtle green plant accent, shot on Sony A7R IV with 85mm f/1.4 lens, shallow depth of field, premium lifestyle magazine aesthetic, no text, no watermark, no garbled characters",
+      "video_prompt": "Slow gentle camera dolly-in, the man carefully places the device behind his ear with a soft smile, natural subtle movement, 4 seconds"
+    },
+    {
+      "name": "shot3_family_moment",
+      "image_prompt": "High-end lifestyle editorial photography, a multi-generation Asian family gathered in a bright modern living room, an elderly person smiling warmly while conversing with adult children and grandchildren, soft natural daylight streaming through large windows, warm cozy inviting atmosphere, genuine emotional connection, shot on Sony A7R IV with 35mm f/1.4 lens, shallow depth of field with creamy bokeh, premium lifestyle magazine aesthetic, earthy neutral tones with subtle green accents, no text, no watermark, no garbled characters",
+      "video_prompt": "Subtle slow camera lateral movement from left to right, family members naturally laughing and conversing, warm emotional atmosphere, 4 seconds"
+    },
+    {
+      "name": "shot4_audiologist_service",
+      "image_prompt": "High-end interior architectural photography, a professional female audiologist in clean white coat assisting an elderly client in a modern audiology clinic room, large floor-to-ceiling windows with soft diffused natural daylight, clean white walls and light oak wood floor, minimalist modern medical equipment, professional calm and trustworthy atmosphere, shot on Nikon Z9 with 24mm f/1.8 lens, f/5.6, architectural digest medical space aesthetic, sterile yet welcoming, subtle green plant accent, no text, no watermark, no garbled characters",
+      "video_prompt": "Slow subtle camera orbit around the audiologist and client, professional fitting interaction, gentle hand movements, 4 seconds"
+    },
+    {
+      "name": "shot5_brand_finale",
+      "image_prompt": "High-end commercial product photography, a single hearing aid centered on a pure white seamless background with a soft shadow underneath, a subtle green gradient glow behind the device suggesting brand identity, minimalist composition with negative space, shot on Phase One XF with 80mm lens, f/8, ultra sharp, premium brand reveal aesthetic, white and light gray with brand green accent, no text, no watermark, no garbled characters",
+      "video_prompt": "Slow gentle zoom-out from the device, soft green glow subtly pulses, premium brand reveal moment, 4 seconds"
+    }
+  ]
+}

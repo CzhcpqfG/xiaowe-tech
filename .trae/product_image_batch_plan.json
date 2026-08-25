@@ -1,0 +1,55 @@
+{
+  "plan_name": "大声助听器产品图 - 按形态分类生成 (参考 product_bigsound_p1.png 风格)",
+  "model": "gpt-image-2",
+  "size": "1:1",
+  "concurrency": 3,
+  "poll_max_wait": 300,
+  "save_to": "d:\\VibeTest\\bigsound\\aigpic\\20260725_product_images",
+  "product_refs": [
+    "d:\\VibeTest\\bigsound\\public\\images\\products\\product_bigsound_p1.png"
+  ],
+  "pages": [
+    {
+      "index": 1,
+      "name": "耳背式助听器 DAB005",
+      "out": "product_dab_behind_ear.png",
+      "prompt": "High-end commercial product photography of a behind-the-ear (BTE) hearing aid in skin-tone beige color, sleek modern ergonomic design curving behind the ear, sitting upright centered on pure white background, soft professional studio lighting from upper left creating gentle shadows, subtle green accent stripe on the device body, shot on Canon EOS R5 with 100mm macro lens, f/8, ultra sharp detail, medical device aesthetic, premium healthcare product, clean minimal composition, product occupies 70% of frame, no text, no watermark, no garbled characters",
+      "fallback_prompt": "Professional product photo of a beige behind-the-ear hearing aid on white background, soft studio lighting, medical device, clean minimal, no text, no watermark"
+    },
+    {
+      "index": 2,
+      "name": "耳内式助听器 DAB006",
+      "out": "product_dab_in_ear_p1.png",
+      "prompt": "High-end commercial product photography of an in-the-ear (ITE) hearing aid in skin-tone beige color, compact custom-molded shell filling the ear canal area, shown from a 3/4 angle view centered on pure white background, soft professional studio lighting from upper left, subtle green accent dot on the device, shot on Canon EOS R5 with 100mm macro lens, f/8, ultra sharp detail, medical device aesthetic, premium healthcare product, clean minimal composition, product occupies 70% of frame, no text, no watermark, no garbled characters",
+      "fallback_prompt": "Professional product photo of a beige in-the-ear hearing aid on white background, 3/4 angle view, soft studio lighting, medical device, clean minimal, no text, no watermark"
+    },
+    {
+      "index": 3,
+      "name": "耳内式助听器高端版 DAQ001",
+      "out": "product_daq_in_ear_q1.png",
+      "prompt": "High-end commercial product photography of a premium invisible-in-canal (IIC) hearing aid in skin-tone beige color, tiny ultra-compact shell designed to fit deep inside the ear canal, shown from a 3/4 angle view centered on pure white background, soft professional studio lighting from upper left, subtle green accent dot on the device, shot on Canon EOS R5 with 100mm macro lens, f/8, ultra sharp detail, medical device aesthetic, premium healthcare product, clean minimal composition, product occupies 65% of frame, no text, no watermark, no garbled characters",
+      "fallback_prompt": "Professional product photo of a beige invisible-in-canal hearing aid on white background, 3/4 angle view, soft studio lighting, medical device, clean minimal, no text, no watermark"
+    },
+    {
+      "index": 4,
+      "name": "颈挂式助听器高端版 DAB007/SAN001",
+      "out": "product_dab_neck_hung_n1.png",
+      "prompt": "High-end commercial product photography of a neck-hung hearing aid device, sleek modern design with a small rounded main unit on a flexible neck band in dark gray and skin-tone beige colors, shown centered on pure white background, soft professional studio lighting from upper left, subtle green accent line on the device, shot on Canon EOS R5 with 100mm macro lens, f/8, ultra sharp detail, medical device aesthetic, premium healthcare product, clean minimal composition, product occupies 70% of frame, no text, no watermark, no garbled characters",
+      "fallback_prompt": "Professional product photo of a neck-hung hearing aid device on white background, soft studio lighting, medical device, clean minimal, no text, no watermark"
+    },
+    {
+      "index": 5,
+      "name": "颈挂式助听器中端版 SAN002/SAN003",
+      "out": "product_san_neck_hung_n2.png",
+      "prompt": "High-end commercial product photography of a neck-hung hearing aid device in lighter modern style, slim rounded main unit on a thin flexible neck band in silver-gray and white colors, shown centered on pure white background, soft professional studio lighting from upper left, subtle green accent line on the device, shot on Canon EOS R5 with 100mm macro lens, f/8, ultra sharp detail, medical device aesthetic, premium healthcare product, clean minimal composition, product occupies 70% of frame, no text, no watermark, no garbled characters",
+      "fallback_prompt": "Professional product photo of a slim neck-hung hearing aid device on white background, soft studio lighting, medical device, clean minimal, no text, no watermark"
+    },
+    {
+      "index": 6,
+      "name": "骨导式助听器 SAB001/SAP001/SAQ002/SAQ003/BO",
+      "out": "product_bone_conduction.png",
+      "prompt": "High-end commercial product photography of a bone conduction hearing aid, sleek modern design with curved titanium arms and a small vibration module resting on a U-shape frame, in dark gray and skin-tone beige colors, shown centered on pure white background, soft professional studio lighting from upper left, subtle green accent on the module, shot on Canon EOS R5 with 100mm macro lens, f/8, ultra sharp detail, medical device aesthetic, premium healthcare product, clean minimal composition, product occupies 70% of frame, no text, no watermark, no garbled characters",
+      "fallback_prompt": "Professional product photo of a bone conduction hearing aid on white background, soft studio lighting, medical device, clean minimal, no text, no watermark"
+    }
+  ]
+}

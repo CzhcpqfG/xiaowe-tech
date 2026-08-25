@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   大声官网 1:1 复刻样式
+   设计宽度: 1200px (faisco 配置 adaptWidth.w=1200)
+   风格: 朴素 - 无圆角、无阴影、无渐变
+   主色: #05a045 (绿) / 选中色: #52b548
+   字体: MiSans (原网站使用 globalFont = MiSans-中等.woff2)
+   字号: 基础 14px / 正文 16px / 新闻标题 18px / 产品系列 24px
+   ============================================================ */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    /* 与 body 协同防止 Reveal 隐藏态 translate-x 导致的 4px 溢出产生水平滚动条
+       注意: 必须用 overflow-x: clip 而非 hidden/hidden,
+       hidden 会把滚动容器从视口转移到 html/body, 导致 position: sticky (全局悬浮 header) 失效 */
+    overflow-x: clip;
+  }
+
+  body {
+    /* 原网站 body: font-family: globalFont (MiSans-中等); font-size: 12px; line-height: 18px */
+    font-family: "MiSans", "PingFang SC", "Microsoft YaHei", -apple-system,
+      BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+    font-size: 14px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* 防止视口 < 1200px 时 wrapper 布局宽度 (1200px) 溢出产生水平滚动条
+       (与 Layout main 的 overflowX: clip 互为兜底)
+       注意: 必须用 overflow-x: clip 而非 hidden, 否则全局悬浮 header 的 sticky 失效 */
+    overflow-x: clip;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@layer components {
+  /* 1200px 设计宽度容器 - 原网站真实设计宽度
+     adaptWidth 缩放模式: 固定 1200px, 由 Layout 的 transform: scale() 整体缩放
+     不需要 max-width: 100% 响应式 */
+  .container-page {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* 朴素按钮 - 无圆角无阴影（hover 变深绿, 200ms transition） */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-2.5 bg-brand-green text-white text-sm font-medium transition-colors duration-300 hover:bg-brand-green-dark;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-6 py-2.5 border border-brand-green text-brand-green text-sm font-medium transition-colors duration-300 hover:bg-brand-green hover:text-white;
+  }
+
+  /* 区块标题 - 朴素居中 */
+  .section-title {
+    @apply text-3xl font-semibold text-ink-900 text-center;
+  }
+
+  .section-subtitle {
+    @apply text-sm text-ink-500 text-center mt-3;
+  }
+
+  /* 原网站 hover 规范：所有可点击文字 hover 时变 #52b548 */
+  .hover-theme-color {
+    transition: color 0.3s ease;
+  }
+  .hover-theme-color:hover {
+    color: #52b548;
+  }
+}
+
+/* ============================================================
+   移动端 / 平板端响应式适配 (2026-07-25 新增)
+   - 视口 < 1024px (移动端/平板): .container-page 变为 100% 宽度 + padding
+   - 视口 ≥ 1024px (桌面端): 走原有 1200px 固定宽度 + Layout scale 缩放
+   - .full-bleed 在移动端不再需要反向补偿, 直接铺满
+   ============================================================ */
+@media (max-width: 1023px) {
+  .container-page {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* full-bleed 在移动端不需要反向补偿, 直接铺满视口 */
+  .full-bleed {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .container-page {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  /* 文本截断 */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* full-bleed - 让 section 突破 1200px wrapper 限制, 铺满横向视口 (gap=0)
+     原理: Layout 用 transform: scale(scale) 缩放 1200px wrapper
+     - width: 100vw / scale → 布局宽度, scale 后视觉宽度 = 视口宽度
+     - margin-left/right: (1200 - 100vw/scale) / 2 → 在 wrapper 内居中, 突破左右边界
+     - 视口 > 1200px (scale=1): 100vw > 1200, margin 为负, 突破 wrapper ✓
+     - 视口 = 1200px (scale=1): 100vw = 1200, margin = 0, 占满 wrapper ✓
+     - 视口 < 1200px (scale<1): 100vw/scale = 1200, margin = 0, 占满 wrapper,
+       scale 后视觉宽度 = 视口 ✓
+     注: --scale 由 Layout.tsx 通过 style 设到 wrapper 上, 子元素可继承读取 */
+  .full-bleed {
+    width: calc(100vw / var(--scale, 1));
+    margin-left: calc((1200px - 100vw / var(--scale, 1)) / 2);
+    margin-right: calc((1200px - 100vw / var(--scale, 1)) / 2);
+  }
+}
+
+/* 自定义滚动条 - 朴素 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #cccccc;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #999999;
+}

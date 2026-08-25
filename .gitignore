@@ -1,0 +1,53 @@
+# 依赖
+node_modules/
+.pnp
+.pnp.js
+
+# 构建产物
+dist/
+dist-ssr/
+*.local
+*.tsbuildinfo
+
+# Playwright 浏览器二进制 (项目内安装, 避免沙箱写入 AppData)
+.playwright-browsers/
+
+# 环境变量 (含密钥, 禁止提交)
+.env
+.env.local
+.env.*.local
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 编辑器
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 临时文件
+.DS_Store
+Thumbs.db
+
+# 深度提取中间产物 (按需保留, 默认忽略)
+_xlsx_extract/
+
+# aigpic 工作区已迁出到项目外 (d:\VibeTest\bigsound_aigpic\)
+# 如本地仍残留 aigpic/ 目录, 忽略之
+aigpic/
+
+# 临时截图与脚本
+tmp/
+tmp_shot_*.png
+tmp_verify_tabs.py
+screenshot_*.py

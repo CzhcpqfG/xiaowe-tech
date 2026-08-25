@@ -1,0 +1,646 @@
+{
+  "hero": {
+    "title": "AI Chinese Hearing Aid",
+    "subtitle": "Listen to the Sound of Love",
+    "description": "12 hearing aids · 12 Chinese hearing core technologies · Full lifecycle service"
+  },
+  "categorySlogan": [
+    "Full Product Line Coverage",
+    "All-Scenario Response"
+  ],
+  "categories": {
+    "all": "All",
+    "behind-ear": "BTE",
+    "in-ear": "ITE",
+    "neck-hung": "Neck-Hung",
+    "bone-conduction": "Bone Conduction"
+  },
+  "forms": {
+    "behind-ear": "BTE",
+    "in-ear": "ITE",
+    "neck-hung": "Neck-Hung",
+    "bone-conduction": "Bone Conduction"
+  },
+  "ui": {
+    "priceLabel": "MSRP",
+    "pricePending": "Price TBD",
+    "priceCurrency": "¥ {{price}}",
+    "emptyCategory": "No products in this category yet, stay tuned...",
+    "clinicalReportAlt": "Clinical experiment report screenshot",
+    "viewDetail": "View Details",
+    "backToProducts": "Back to Products"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "productCenter": "Products"
+  },
+  "products": {
+    "0": {
+      "model": "DAB005 Premium",
+      "features": {
+        "0": {
+          "label": "Algo 2.0",
+          "desc": "Chinese speech enhance"
+        },
+        "1": {
+          "label": "AI AGC",
+          "desc": "Auto gain"
+        },
+        "2": {
+          "label": "HHT",
+          "desc": "Non-stationary NR"
+        },
+        "3": {
+          "label": "WNR",
+          "desc": "Wind NR"
+        },
+        "4": {
+          "label": "5-core",
+          "desc": "12nm chip"
+        },
+        "5": {
+          "label": "1.5B ops/s",
+          "desc": "AI compute"
+        }
+      }
+    },
+    "1": {
+      "model": "DAB006",
+      "features": {
+        "0": {
+          "label": "Algo 2.0",
+          "desc": "Chinese speech enhance"
+        },
+        "1": {
+          "label": "AI AGC",
+          "desc": "Auto gain"
+        },
+        "2": {
+          "label": "HHT",
+          "desc": "Non-stationary NR"
+        },
+        "3": {
+          "label": "DASH",
+          "desc": "Dual howling supp."
+        },
+        "4": {
+          "label": "5-core",
+          "desc": "12nm chip"
+        },
+        "5": {
+          "label": "1.5B ops/s",
+          "desc": "AI compute"
+        }
+      }
+    },
+    "2": {
+      "model": "DAB007 Deluxe",
+      "features": {
+        "0": {
+          "label": "AFC",
+          "desc": "Adaptive feedback"
+        },
+        "1": {
+          "label": "INR",
+          "desc": "Impulse NR"
+        },
+        "2": {
+          "label": "HFMR",
+          "desc": "High-freq reshape"
+        },
+        "3": {
+          "label": "HHT",
+          "desc": "Non-stationary NR"
+        },
+        "4": {
+          "label": "5-core",
+          "desc": "12nm chip"
+        },
+        "5": {
+          "label": "1.5B ops/s",
+          "desc": "AI compute"
+        }
+      }
+    },
+    "3": {
+      "model": "SAB001",
+      "features": {
+        "0": {
+          "label": "24-ch",
+          "desc": "WDRC"
+        },
+        "1": {
+          "label": "1-key",
+          "desc": "Simple operation"
+        },
+        "2": {
+          "label": "Multi",
+          "desc": "Smart NR"
+        },
+        "3": {
+          "label": "360°",
+          "desc": "Omni mic"
+        },
+        "4": {
+          "label": "41dB",
+          "desc": "Full-on gain"
+        },
+        "5": {
+          "label": "121dB",
+          "desc": "Max output"
+        }
+      }
+    },
+    "4": {
+      "model": "SAP001 Joy",
+      "features": {
+        "0": {
+          "label": "4-core",
+          "desc": "Pro hearing chip"
+        },
+        "1": {
+          "label": "64-ch",
+          "desc": "WDRC"
+        },
+        "2": {
+          "label": "DASH",
+          "desc": "Dual howling supp."
+        },
+        "3": {
+          "label": "WNR",
+          "desc": "Wind NR"
+        },
+        "4": {
+          "label": "48dB",
+          "desc": "Full-on gain"
+        },
+        "5": {
+          "label": "113dB",
+          "desc": "Max output"
+        }
+      }
+    },
+    "5": {
+      "model": "DAQ001 Deluxe",
+      "features": {
+        "0": {
+          "label": "Chinese speech",
+          "desc": "Speech enhance"
+        },
+        "1": {
+          "label": "HFMR",
+          "desc": "High-freq reshape"
+        },
+        "2": {
+          "label": "HHT",
+          "desc": "Non-stationary NR"
+        },
+        "3": {
+          "label": "DASH",
+          "desc": "Dual howling supp."
+        },
+        "4": {
+          "label": "64-ch",
+          "desc": "WDRC"
+        },
+        "5": {
+          "label": "45dB",
+          "desc": "Full-on gain"
+        }
+      }
+    },
+    "6": {
+      "model": "SAQ002 Deluxe",
+      "features": {
+        "0": {
+          "label": "AFC",
+          "desc": "Adaptive feedback"
+        },
+        "1": {
+          "label": "INR",
+          "desc": "Impulse NR"
+        },
+        "2": {
+          "label": "HFMR",
+          "desc": "High-freq reshape"
+        },
+        "3": {
+          "label": "64-ch",
+          "desc": "WDRC"
+        },
+        "4": {
+          "label": "43dB",
+          "desc": "Full-on gain"
+        },
+        "5": {
+          "label": "111dB",
+          "desc": "Max output"
+        }
+      }
+    },
+    "7": {
+      "model": "SAQ003",
+      "features": {
+        "0": {
+          "label": "HFMR",
+          "desc": "High-freq reshape"
+        },
+        "1": {
+          "label": "INR",
+          "desc": "Impulse NR"
+        },
+        "2": {
+          "label": "DASH",
+          "desc": "Dual howling supp."
+        },
+        "3": {
+          "label": "Chinese speech",
+          "desc": "Speech enhance"
+        },
+        "4": {
+          "label": "45dB",
+          "desc": "Full-on gain"
+        },
+        "5": {
+          "label": "116dB",
+          "desc": "Max output"
+        }
+      }
+    },
+    "8": {
+      "model": "SAN001",
+      "features": {
+        "0": {
+          "label": "Algo 2.0",
+          "desc": "Chinese speech enhance"
+        },
+        "1": {
+          "label": "AI",
+          "desc": "Video AI fitting"
+        },
+        "2": {
+          "label": "Triple",
+          "desc": "Howling suppression"
+        },
+        "3": {
+          "label": "WNR",
+          "desc": "Wind NR"
+        },
+        "4": {
+          "label": "48dB",
+          "desc": "Full-on gain"
+        },
+        "5": {
+          "label": "113dB",
+          "desc": "Max output"
+        }
+      }
+    },
+    "9": {
+      "model": "SAN002 Plus",
+      "features": {
+        "0": {
+          "label": "4-core",
+          "desc": "Pro hearing chip"
+        },
+        "1": {
+          "label": "33H",
+          "desc": "Long battery life"
+        },
+        "2": {
+          "label": "Triple",
+          "desc": "Howling suppression"
+        },
+        "3": {
+          "label": "HFMR",
+          "desc": "High-freq reshape"
+        },
+        "4": {
+          "label": "42dB",
+          "desc": "Full-on gain"
+        },
+        "5": {
+          "label": "110dB",
+          "desc": "Max output"
+        }
+      }
+    },
+    "10": {
+      "model": "SAN003 Deluxe",
+      "features": {
+        "0": {
+          "label": "AI",
+          "desc": "Video AI fitting"
+        },
+        "1": {
+          "label": "INR",
+          "desc": "Impulse NR"
+        },
+        "2": {
+          "label": "HFMR",
+          "desc": "High-freq reshape"
+        },
+        "3": {
+          "label": "HHT",
+          "desc": "Non-stationary NR"
+        },
+        "4": {
+          "label": "57dB",
+          "desc": "Full-on gain"
+        },
+        "5": {
+          "label": "120dB",
+          "desc": "Max output"
+        }
+      }
+    },
+    "11": {
+      "model": "BO",
+      "features": {
+        "0": {
+          "label": "4-core",
+          "desc": "Pro hearing chip"
+        },
+        "1": {
+          "label": "64-ch",
+          "desc": "WDRC"
+        },
+        "2": {
+          "label": "DASH",
+          "desc": "Dual howling supp."
+        },
+        "3": {
+          "label": "INR",
+          "desc": "Sudden NR"
+        },
+        "4": {
+          "label": "30dB",
+          "desc": "Full-on gain"
+        },
+        "5": {
+          "label": "115dB",
+          "desc": "Max output"
+        }
+      }
+    }
+  },
+  "coreTech": {
+    "title": "Chinese Hearing Core Technology",
+    "subtitle": "Customized for Chinese users",
+    "desc": "Making up for the shortcomings of traditional hearing aids, customized for Chinese people, more suitable for Chinese users",
+    "fanChart": {
+      "centerText": "中",
+      "centerSub": "Chinese Hearing Aid",
+      "centerHint": "Best for Chinese",
+      "sectors": {
+        "0": {
+          "prefix": "Not static, but",
+          "highlight": "Non-stationary NR",
+          "sub": "Realistic NR, natural sound"
+        },
+        "1": {
+          "prefix": "Not just hardware",
+          "highlight": "AI Hearing",
+          "sub": "Hardware + fitting full-stack AI"
+        },
+        "2": {
+          "prefix": "Not just software",
+          "highlight": "Hardware-Software Integration",
+          "sub": "Solving the howling challenge"
+        },
+        "3": {
+          "prefix": "Beyond communication",
+          "connector": "Breakthrough",
+          "highlight": "Diversified Scenarios"
+        },
+        "4": {
+          "prefix": "Beyond traditional form",
+          "highlight": "Diversified",
+          "suffix": "Product Forms"
+        }
+      }
+    }
+  },
+  "endorsements": {
+    "title": "Authoritative Endorsement · Hardcore Strength",
+    "medicalCerts": {
+      "title": "National Medical Qualifications",
+      "certs": {
+        "0": {
+          "name": "ITE Hearing Aid Registration Certificate"
+        },
+        "1": {
+          "name": "BTE Hearing Aid Registration Certificate"
+        },
+        "2": {
+          "name": "Medical Device Production License"
+        },
+        "3": {
+          "name": "BTE RIC Hearing Aid Registration Certificate"
+        },
+        "4": {
+          "name": "Body-Worn Hearing Aid Registration Certificate"
+        }
+      }
+    },
+    "clinical": {
+      "title": "Clinical Medical Certification",
+      "desc": "Multiple clinical experimental studies have been conducted at Shandong ENT Hospital, Sun Yat-sen Memorial Hospital of Sun Yat-sen University, etc., including \"Feasibility and Preliminary Efficacy Analysis of Community Hearing Rehabilitation Model for the Elderly\" and \"Hearing Improvement Effects for Severe Age-Related Hearing Loss\".",
+      "hospitals": {
+        "0": {
+          "name": "Shandong ENT Hospital"
+        },
+        "1": {
+          "name": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University"
+        }
+      },
+      "reportDisclaimer": "Disclaimer:\n1. The test data and results in this report only prove the conformity of the tested items of the entrusted test samples. The test results are only valid for the submitted samples themselves and the environmental conditions on the day of testing.\n2. When the tested sample is updated in model/version or any other changes occur, the test results of this report are no longer applicable and shall not be applied to other models/versions of products."
+    },
+    "patents": {
+      "title": "National Patent Certification",
+      "desc": "30+ patent technologies related to hearing aids, acoustics, health smart wearables, etc.",
+      "imageNote": "Data as of May 2024"
+    }
+  },
+  "serviceCenter": {
+    "title": "Hearing Service Center",
+    "subtitle": "One-Stop ENT Service",
+    "intro": {
+      "title": "Bigsound Hearing Service Center - One-Stop ENT Service",
+      "desc": [
+        "Bigsound ENT builds a standardized, data-driven, and visualized ENT service system, pioneering the \"Sound Prescription\" front-back collaborative professional fitting system, comprehensively reconstructing hearing health service standards, aimed at providing users with full-lifecycle hearing health management solutions.",
+        "We deploy ENT hearing service centers in community-type shopping malls nationwide, equipped with Class-A tertiary hospital-grade medical audiometric booths (noise < 25dB), pure-tone/speech/sound-field audiometers, middle ear analyzers, real-ear analyzers, and other professional equipment, with national-level clinical audiologists providing professional hearing tests, hearing aid fitting/maintenance, hearing rehabilitation, hearing prevention and intervention - all in one-stop ENT services."
+      ]
+    },
+    "equipment": {
+      "title": "Class-A Tertiary Hospital-Grade Million-Level Testing Equipment",
+      "items": {
+        "0": {
+          "title": "Real-Ear Analyzer",
+          "subtitle": "US imported / Hearing aid effect evaluation"
+        },
+        "1": {
+          "title": "HD Professional Otoscope",
+          "subtitle": "Optical microscope / With photo & video"
+        },
+        "2": {
+          "title": "Medical-Grade Audiometric Booth",
+          "subtitle": "Noise < 25dB / Professional sound field"
+        },
+        "3": {
+          "title": "International Standard Audiometer",
+          "subtitle": "US imported / Pure-tone speech field test"
+        },
+        "4": {
+          "title": "Professional Fitting Equipment",
+          "subtitle": "Self-developed / Fitting algorithm tuning"
+        },
+        "5": {
+          "title": "Cleaning & Maintenance Instruments",
+          "subtitle": "Professional hearing aid / Extended lifespan"
+        }
+      }
+    },
+    "remoteTitle": "ENT-Grade \"Sound Prescription\" + Audiologist Remote AI Fitting Service",
+    "remoteDesc": "Self-developed \"Sound Prescription\" fitting system, based on front-back collaborative combat mode, achieving full-expert fitting, improving user experience and satisfaction, building an efficient professional fitting system",
+    "processChart": {
+      "leftColTitle": "Front-End Fitter",
+      "leftColSub": "SOP + Fully Digital Examination",
+      "rightColTitle": "Back-End Audiologist",
+      "rightColSub": "Professional Clinical Sound Prescription",
+      "stepColTitle": "Service Process",
+      "stepColSub": "Three Steps to Professional Fitting",
+      "leftNodes": {
+        "0": "Reception & Consultation",
+        "1": "Standardized ENT Exam",
+        "2": "Product Selection & Trial",
+        "3": "Download Rx, Verify & Tune",
+        "4": "Usage Guide & Rehab"
+      },
+      "rightNodes": {
+        "0": "Sound Rx Plan Development",
+        "1": "Fitting Tuning & Params",
+        "2": "Product & Ear Mold Custom"
+      },
+      "steps": {
+        "0": {
+          "title": "Fitter Submits Request",
+          "desc": "Exam done, data auto-uploaded"
+        },
+        "1": {
+          "title": "Audiologist Issues Sound Rx",
+          "desc": "Expert creates custom Sound Rx"
+        },
+        "2": {
+          "title": "Fitter Applies Sound Rx",
+          "desc": "Download Rx, guide trial"
+        }
+      },
+      "arrowUploadLabel": "Data uploaded, request sent",
+      "arrowFeedbackLabel": "Trial feedback"
+    },
+    "storeTitle": "Store Address",
+    "directStore": {
+      "label": "Direct-Operated Store",
+      "address": "Skyworth Bigsound Hearing Service Center, Room 238, 2nd Floor, East Zone, Xihuicheng, Luohu District, Shenzhen (700m walk from Exit C, Tai'an Station, Metro Line 5)"
+    },
+    "franchiseStore": {
+      "label": "Franchise Store",
+      "address": "(Franchise store list being supplemented, stay tuned)"
+    },
+    "storeCards": {
+      "0": {
+        "title": "Hearing Rehabilitation Consultation",
+        "desc": "National-level audiologists answer rehabilitation questions online"
+      },
+      "1": {
+        "title": "Hearing Test Appointment",
+        "desc": "Class-A tertiary hospital-grade equipment for precise grading assessment"
+      },
+      "2": {
+        "title": "Hearing Aid Cleaning & Maintenance Appointment",
+        "desc": "Free professional maintenance to extend lifespan"
+      }
+    },
+    "consultingPhoneLabel": "Consulting Hotline"
+  },
+  "lifecycleService": {
+    "title": "Full-Lifecycle Service",
+    "subtitle": "Covering Pre-sales / In-sales / After-sales",
+    "presalesTitle": "Pre-Sales Service",
+    "presales": {
+      "0": {
+        "title": "Expert Consultation",
+        "desc": "Senior audiologist service / All-around inquiry"
+      },
+      "1": {
+        "title": "Hearing Assessment",
+        "desc": "Million-level medical equipment / Precise grading"
+      },
+      "2": {
+        "title": "Product Selection",
+        "desc": "Full product line / Selection experience"
+      },
+      "3": {
+        "title": "Rehabilitation Advice",
+        "desc": "Hearing prevention / Hearing intervention"
+      }
+    },
+    "postalesTitle": "In-Sales · After-Sales Service",
+    "postales": {
+      "0": {
+        "title": "Personal Hearing Consultant",
+        "desc": "Consult anytime / Answer anytime"
+      },
+      "1": {
+        "title": "Replace Not Repair",
+        "desc": "Warranty non-artificial damage: full replacement"
+      },
+      "2": {
+        "title": "Usage Guidance",
+        "desc": "Hand-by-hand + HD video"
+      },
+      "3": {
+        "title": "Four-Week Care",
+        "desc": "Continuous follow-up, 4-week guide"
+      },
+      "4": {
+        "title": "Extended Warranty",
+        "desc": "Purchase = Member, extended warranty"
+      },
+      "5": {
+        "title": "Regular Tuning",
+        "desc": "Free store tuning, lifetime service"
+      },
+      "6": {
+        "title": "Lifetime Membership",
+        "desc": "Free tests, maintenance, care, tuning"
+      },
+      "7": {
+        "title": "National Joint Warranty",
+        "desc": "National chain network / Repair/upgrade services"
+      }
+    }
+  },
+  "warranty": {
+    "title": "After-Sales Warranty Policy",
+    "sections": {
+      "0": {
+        "title": "Hearing Aid Warranty Policy",
+        "content": "Skyworth AI Chinese hearing aids provide 1-year warranty service, Bigsound AI Chinese hearing aids provide 2-year warranty service. Within the corresponding period, any failure caused by the product's own quality issues can be repaired or replaced. However, the user will not be able to enjoy this policy if any of the following situations occurs: purchased through non-company authorized formal channels; damage caused by user misuse or improper storage; damage caused by force majeure (such as floods, fires, lightning strikes, etc.); hearing aid accessories; altered warranty cards or deliberately worn serial numbers and other behaviors that prove the warranty period; unauthorized modification, disassembly or repair of hearing aids or repair outside the company's authorized fitting stores; self-repair and maintenance using non-company-specific spare parts. For product issues, please contact the purchasing dealer or call the national unified service hotline (400-116-9566) or consult through the WeChat official account (Skyworth Health Smart Wearable)."
+      },
+      "1": {
+        "title": "Hearing Aid Precautions",
+        "content": "Hearing aids are classified as national Class II medical devices. Selection and use of hearing aids should be performed through professional hearing tests and fitting operations, and under the guidance of doctors or professional hearing aid fitters, otherwise secondary hearing damage may occur. Hearing aids can only assist hearing and cannot restore normal hearing, nor can they prevent or improve hearing damage caused by \"organic lesions\". After wearing hearing aids, rehabilitation training and lip-reading guidance may be needed. Please also note that if you don't use hearing aids frequently, you may not be able to get all the benefits from them. We recommend long-term wear and maintaining good wearing habits to maximize the benefits of hearing aids."
+      },
+      "2": {
+        "title": "Hearing Aid Protection",
+        "content": "Do not place hearing aids in humid or watery environments, and do not use any liquids to clean hearing aids. If sweat infiltrates the hearing aid, wipe it dry promptly. Never immerse hearing aids in any liquid. Remove hearing aids in advance and keep them safe when swimming, bathing, shampooing, or washing face. Wait until the ear canal is dry before putting on the hearing aid. If the hearing aid accidentally falls into water, do not dry it with a hand dryer or any dryer. Use a soft, clean cotton cloth/tissue to wipe it dry, and air-dry it naturally in a ventilated environment. If there is a malfunction, please contact the customer service center. Hearing aids should be kept away from high-temperature environments or prolonged sunlight exposure. Hearing aids are sophisticated electronic devices and should be protected from falling to the ground or severe knocks, vibrations, or impacts to avoid damage. Portable and mobile RF communication devices may affect the normal use of hearing aids. Please do not wear hearing aids during short-wave heat therapy, X-ray, MR scans, CT scans, or similar radiation treatments to avoid damage. When not using hearing aids for a long time, put them back in the charging case and try to keep the case charged to prevent the battery from being unable to be used normally due to long-term power loss."
+      },
+      "3": {
+        "title": "Hearing Aid Cleaning",
+        "content": "During the use of hearing aids, earwax will accumulate in the ear canal and the sound outlet of the hearing aid. Excessive accumulation of earwax will affect the effectiveness of the hearing aid. Therefore, please clean your ear canal regularly and maintain the hearing aid. Use a dry, soft cloth to clean the hearing aid. When wiping or cleaning the hearing aid, do it on a soft surface (such as placing a soft towel on the table) to avoid damage from accidental falls. Use a cleaning brush to brush downward at the sound outlet to clean earwax at the sound outlet. Remember: Never use any liquid to clean hearing aids!"
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan_name": "大声助听器产品图 v2 - 基于真实产品参考图生成 (换色/换形态)",
+  "model": "gpt-image-2",
+  "size": "1:1",
+  "concurrency": 3,
+  "poll_max_wait": 300,
+  "save_to": "d:\\VibeTest\\bigsound\\aigpic\\20260726_product_images_v2",
+  "product_refs": [],
+  "pages": [
+    {
+      "index": 1,
+      "name": "耳背式助听器 DAB005 (参考真实 BR)",
+      "out": "product_dab_behind_ear.png",
+      "prompt": "High-end commercial product photography of a behind-the-ear (BTE) hearing aid, inspired by the reference image's design language, materials and proportions. The device curves behind the ear with a slim sound tube leading to a soft ear tip. Pure white seamless background. Professional studio lighting with soft shadows. Ultra sharp, 85mm macro lens, shallow depth of field. Premium medical device aesthetic. You may vary the color or slightly adjust the form while keeping the same premium realistic product feel. Clean composition, centered product, no text, no watermark, no garbled characters.",
+      "fallback_prompt": "Professional product photo of a behind-the-ear hearing aid on pure white background, clean studio lighting, sharp focus, no people, no text, no watermark",
+      "extra_refs": ["https://i.ibb.co/xKv8LwcP/eef3e20ac180.jpg"]
+    },
+    {
+      "index": 2,
+      "name": "耳内式助听器 DAB006 (参考真实 P1)",
+      "out": "product_dab_in_ear_p1.png",
+      "prompt": "High-end commercial product photography of an in-the-ear (ITE) hearing aid, inspired by the reference image's compact shell, surface finish and skin-tone palette. The device sits as a small custom-fit shell for the ear canal. Pure white seamless background. Professional studio lighting with soft shadows. Ultra sharp, 85mm macro lens, shallow depth of field. Premium medical device aesthetic. You may vary the color or slightly adjust the form while keeping the same premium realistic product feel. Clean composition, centered product, no text, no watermark, no garbled characters.",
+      "fallback_prompt": "Professional product photo of an in-the-ear hearing aid on pure white background, clean studio lighting, sharp focus, no people, no text, no watermark",
+      "extra_refs": ["https://i.ibb.co/21fjqX5t/08651e2d8e87.png"]
+    },
+    {
+      "index": 3,
+      "name": "耳内式高端助听器 DAQ001 (参考真实 Q1)",
+      "out": "product_daq_in_ear_q1.png",
+      "prompt": "High-end commercial product photography of a premium invisible-in-canal (IIC) hearing aid, inspired by the reference image's refined design, smaller size and elegant finish. The device is an ultra-compact earpiece, almost invisible when worn. Pure white seamless background. Professional studio lighting with soft shadows. Ultra sharp, 85mm macro lens, shallow depth of field. Premium medical device aesthetic. You may vary the color or slightly adjust the form while keeping the same premium realistic product feel. Clean composition, centered product, no text, no watermark, no garbled characters.",
+      "fallback_prompt": "Professional product photo of a small premium in-canal hearing aid on pure white background, clean studio lighting, sharp focus, no people, no text, no watermark",
+      "extra_refs": ["https://i.ibb.co/99BqYBZX/f8d3bc1d1621.png"]
+    },
+    {
+      "index": 4,
+      "name": "颈挂式高端助听器 DAB007/SAN001 (参考真实 N1)",
+      "out": "product_dab_neck_hung_n1.png",
+      "prompt": "High-end commercial product photography of a neckband-style hearing aid / assistive listening device, inspired by the reference image's neckband form, earpiece design and material quality. The device features a flexible neckband with control unit and thin wires to earbuds. Pure white seamless background. Professional studio lighting with soft shadows. Ultra sharp, 85mm macro lens, shallow depth of field. Premium wearable medical device aesthetic. You may vary the color or slightly adjust the form while keeping the same premium realistic product feel. Clean composition, centered product, no text, no watermark, no garbled characters.",
+      "fallback_prompt": "Professional product photo of a neckband hearing aid on pure white background, clean studio lighting, sharp focus, no people, no text, no watermark",
+      "extra_refs": ["https://i.ibb.co/NnGBtn8w/b4053d3afccb.png"]
+    },
+    {
+      "index": 5,
+      "name": "颈挂式中端助听器 SAN002/SAN003 (参考真实 N2)",
+      "out": "product_san_neck_hung_n2.png",
+      "prompt": "High-end commercial product photography of a streamlined neckband hearing aid / hearing assist device, inspired by the reference image's slim neckband and earpiece layout. The device has a lightweight collar band with integrated controls and detachable earphones. Pure white seamless background. Professional studio lighting with soft shadows. Ultra sharp, 85mm macro lens, shallow depth of field. Modern wearable medical device aesthetic. You may vary the color or slightly adjust the form while keeping the same premium realistic product feel. Clean composition, centered product, no text, no watermark, no garbled characters.",
+      "fallback_prompt": "Professional product photo of a slim neckband hearing aid on pure white background, clean studio lighting, sharp focus, no people, no text, no watermark",
+      "extra_refs": ["https://i.ibb.co/9kyjBYNd/6887d8996950.png"]
+    },
+    {
+      "index": 6,
+      "name": "骨导式助听器 SAB001/SAP001/SAQ002/SAQ003/BO",
+      "out": "product_bone_conduction.png",
+      "prompt": "High-end commercial product photography of a bone conduction hearing aid device. The product has an open-ear design: a small transducer module rests on the cheekbone area behind the ear, connected by a thin titanium or flexible band, no ear tip inserted into the canal. Design language should match the premium realistic style of the reference hearing aids: smooth matte finish, subtle skin-tone or dark graphite color, precise edges. Pure white seamless background. Professional studio lighting with soft shadows. Ultra sharp, 85mm macro lens, shallow depth of field. Premium medical device aesthetic. Clean composition, centered product, no text, no watermark, no garbled characters.",
+      "fallback_prompt": "Professional product photo of a bone conduction hearing device on pure white background, open-ear design, clean studio lighting, sharp focus, no people, no text, no watermark",
+      "extra_refs": ["https://i.ibb.co/21fjqX5t/08651e2d8e87.png"]
+    }
+  ]
+}

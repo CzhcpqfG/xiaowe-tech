@@ -1,0 +1,83 @@
+{
+  "batch_id": "20260720_235803",
+  "batch_plan_path": "D:\\VibeTest\\bigsound\\aigpic\\careers_batch_plan.json",
+  "total": 6,
+  "done": 6,
+  "ok": 6,
+  "fail": 0,
+  "running": 0,
+  "started_at": 1784563083,
+  "updated_at": 1784563319,
+  "eta_seconds": 0,
+  "concurrency": 3,
+  "save_to": "d:\\VibeTest\\bigsound\\public\\images\\careers",
+  "finished": true,
+  "pages": [
+    {
+      "index": 1,
+      "name": "",
+      "status": "ok",
+      "out": "第1张_第1张.png",
+      "saved_to": "d:\\VibeTest\\bigsound\\public\\images\\careers\\第1张_第1张.png",
+      "prompt_used": "主prompt",
+      "started_at": 1784563083,
+      "cost_seconds": 179.34,
+      "error": null
+    },
+    {
+      "index": 2,
+      "name": "",
+      "status": "ok",
+      "out": "第2张_第2张.png",
+      "saved_to": "d:\\VibeTest\\bigsound\\public\\images\\careers\\第2张_第2张.png",
+      "prompt_used": "主prompt",
+      "started_at": 1784563083,
+      "cost_seconds": 74.36,
+      "error": null
+    },
+    {
+      "index": 3,
+      "name": "",
+      "status": "ok",
+      "out": "第3张_第3张.png",
+      "saved_to": "d:\\VibeTest\\bigsound\\public\\images\\careers\\第3张_第3张.png",
+      "prompt_used": "主prompt",
+      "started_at": 1784563083,
+      "cost_seconds": 175.9,
+      "error": null
+    },
+    {
+      "index": 4,
+      "name": "",
+      "status": "ok",
+      "out": "第4张_第4张.png",
+      "saved_to": "d:\\VibeTest\\bigsound\\public\\images\\careers\\第4张_第4张.png",
+      "prompt_used": "主prompt",
+      "started_at": 1784563157,
+      "cost_seconds": 49.72,
+      "error": null
+    },
+    {
+      "index": 5,
+      "name": "",
+      "status": "ok",
+      "out": "第5张_第5张.png",
+      "saved_to": "d:\\VibeTest\\bigsound\\public\\images\\careers\\第5张_第5张.png",
+      "prompt_used": "主prompt",
+      "started_at": 1784563207,
+      "cost_seconds": 54.41,
+      "error": null
+    },
+    {
+      "index": 6,
+      "name": "",
+      "status": "ok",
+      "out": "第6张_第6张.png",
+      "saved_to": "d:\\VibeTest\\bigsound\\public\\images\\careers\\第6张_第6张.png",
+      "prompt_used": "主prompt",
+      "started_at": 1784563259,
+      "cost_seconds": 60.6,
+      "error": null
+    }
+  ]
+}

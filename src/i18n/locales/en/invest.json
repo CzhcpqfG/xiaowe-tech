@@ -1,0 +1,464 @@
+{
+  "hero": {
+    "title": "Franchise",
+    "subtitle": "Billions in Sound · Synergy for All",
+    "description": "Skyworth Ecosystem · Xiaowei Health Tech — National City Partner Recruitment",
+    "imageAlt": "Xiaowei Health Tech franchise partnership handshake scene"
+  },
+  "prospect": {
+    "sectionTitle": "Promising Industry Outlook",
+    "sectionSubtitle": "The \"Three Highs and One Low\" of the Hearing Industry",
+    "highPrevalence": {
+      "title": "High Prevalence",
+      "desc": "Hearing loss affects over 20% of the global population. With aging populations and modern lifestyle changes, the number is projected to reach 2.5 billion by 2050, with 700 million having moderate or worse hearing loss. China's hearing aid market potential will exceed 120 billion yuan",
+      "imageAlt": "Global hearing impaired population distribution concept map",
+      "stats": [
+        {
+          "num": "1.6B",
+          "label": "Global hearing impaired population in 2019",
+          "sub": "1/5 of the world"
+        },
+        {
+          "num": "70M+",
+          "label": "Chinese bilateral moderate hearing loss in 2021",
+          "sub": "Projected to reach 100M / 130M by 2035 / 2050"
+        },
+        {
+          "num": "430M",
+          "label": "Moderate or worse hearing loss",
+          "sub": "Need hearing aids"
+        },
+        {
+          "num": "1/3",
+          "label": "Seniors over 65",
+          "sub": "Have hearing disorders"
+        }
+      ]
+    },
+    "highHarm": {
+      "title": "High Harm",
+      "desc": "Hearing loss severely impacts the current and future quality of life for the elderly. Without timely intervention, the loss amounts to 981 billion USD, equivalent to the Netherlands' annual GDP",
+      "risks": [
+        {
+          "topic": "Dementia",
+          "imageAlt": "Concept map linking dementia and hearing loss",
+          "stats": [
+            {
+              "num": "5x",
+              "label": "Hearing impaired with cognitive disorders"
+            },
+            {
+              "num": "1/4",
+              "label": "Hearing loss is the top factor"
+            }
+          ]
+        },
+        {
+          "topic": "Falls",
+          "imageAlt": "Concept map linking hearing loss and fall risk",
+          "stats": [
+            {
+              "num": "3x",
+              "label": "Fall frequency for 25dB mild hearing loss"
+            },
+            {
+              "num": "1.4x",
+              "label": "Fall probability per 10dB drop"
+            }
+          ]
+        },
+        {
+          "topic": "Depression",
+          "imageAlt": "Concept map linking hearing loss and depression",
+          "stats": [
+            {
+              "num": "8.36%",
+              "label": "Hearing impaired with chronic diseases"
+            },
+            {
+              "num": "30%",
+              "label": "Hearing impaired with depression"
+            }
+          ]
+        }
+      ]
+    },
+    "highIntervention": {
+      "title": "High Intervenability",
+      "desc": "Hearing impairment is irreversible, but timely use of hearing aids can halt progression — the most effective intervention",
+      "imageAlt": "Hearing loss grading intervention plan",
+      "table": {
+        "headers": {
+          "grade": "Grade",
+          "dbRange": "Hearing Threshold (dB)",
+          "experience": "Noise Experience",
+          "solution": "Solution"
+        },
+        "categories": {
+          "imperceptible": "Hard to Notice",
+          "affected": "Life Affected"
+        },
+        "rows": [
+          {
+            "grade": "Normal",
+            "dbRange": "< 20",
+            "experience": "Almost no issues"
+          },
+          {
+            "grade": "Mild Loss",
+            "dbRange": "20 - 35",
+            "experience": "Speech unclear"
+          },
+          {
+            "grade": "Moderate Loss",
+            "dbRange": "35 - 50",
+            "experience": "Conversing is difficult"
+          },
+          {
+            "grade": "Mod-Severe Loss",
+            "dbRange": "50 - 65",
+            "experience": "Most speech is hard"
+          },
+          {
+            "grade": "Severe Loss",
+            "dbRange": "65 - 80",
+            "experience": "Speech is strenuous"
+          },
+          {
+            "grade": "Profound Loss",
+            "dbRange": "80 - 95",
+            "experience": "Can't hear speech"
+          },
+          {
+            "grade": "Total Loss",
+            "dbRange": "≥ 95",
+            "experience": "Can't hear speech at all"
+          }
+        ],
+        "blocks": {
+          "psap": {
+            "title": "PSAPs",
+            "items": [
+              "Consumer electronics",
+              "Component-level"
+            ],
+            "price": "Single-ear ¥1,000"
+          },
+          "otc": {
+            "title": "OTC Hearing Aid",
+            "items": [
+              "Medical device",
+              "Rx required (US)",
+              "Remote fitting"
+            ],
+            "price": "Both-ears ¥600 - 3,000"
+          },
+          "medical": {
+            "title": "Medical-Grade HA",
+            "items": [
+              "Class II medical device",
+              "Rx + quantitative compensation",
+              "Pro fitter required",
+              "US/EU prescription-targeted",
+              "Precise loss fitting & tuning"
+            ],
+            "price": "Single-ear ¥3,000 - 60,000",
+            "badgeTitle": "Core User",
+            "badgeDesc": "Worst pain, big price gaps, hard to choose"
+          },
+          "cochlear": {
+            "title": "Cochlear Implant",
+            "items": [
+              "Ear surgery implant"
+            ],
+            "price": "Single-ear ¥150K+"
+          }
+        },
+        "footnote": "* Solutions follow US market classification; China's 'hearing aids' are all Class II medical devices with no OTC category, comparable to online remote-fitting products"
+      }
+    },
+    "lowAwareness": {
+      "title": "Low Awareness",
+      "desc": "If hearing-impaired individuals receive timely hearing aid fitting and rehabilitation services, the vast majority can have their hearing compensated and participate in social activities like normal-hearing people, improving their quality of life",
+      "groups": [
+        {
+          "label": "User Low Awareness",
+          "items": [
+            "67% of seniors don't know their hearing has declined or been lost",
+            "Only 7.4% of ear disease patients in China have received hearing tests",
+            "Only 8% of hearing-impaired seniors over 65 received hearing tests in the past year"
+          ]
+        },
+        {
+          "label": "Government Low Awareness",
+          "items": [
+            "Child subsidies are well-established, but senior subsidies only exist in Beijing/Shanghai/Guangdong/Fujian",
+            "WHO 2017 Global Deafness Prevention Resolution requires otology to extend to grassroots and communities, but China's progress is not ideal",
+            "WHO requires hearing aid adoption rate to reach 50% by 2030; China still has a huge gap"
+          ]
+        }
+      ]
+    }
+  },
+  "advantages": {
+    "sectionTitle": "Strong Project Advantages",
+    "sectionSubtitle": "Good Track + Government Support + Strong Brand",
+    "track": {
+      "title": "Good Track",
+      "desc": "Benefiting from population aging, with sustained high growth. By 2050, moderate or worse hearing loss population will reach 700 million, and China's hearing aid market potential will exceed 120 billion yuan",
+      "lineChart": {
+        "title": "China Hearing Aid Market Size Trend (2000-2030)",
+        "yAxisUnit": "100M (population scale)",
+        "unitLabel": "Unit",
+        "legendDemand": "China Hearing Aid Demand",
+        "legendCapital": "Capital Scale"
+      }
+    },
+    "marketStatus": {
+      "title": "China Hearing Health Market Status",
+      "desc": "Internal neglect, external product and technology monopoly. Chinese hearing-impaired users have low adoption rates, poor product service experiences, and high purchase costs",
+      "statText": {
+        "num": "95%",
+        "label": "Chinese hearing-impaired population",
+        "sub": "Not wearing hearing aids"
+      },
+      "imageAlt": "China hearing health market status - hearing clinic fitting scene",
+      "countryRatesTitle": "Global Adoption Rate Comparison",
+      "countryRates": [
+        {
+          "country": "France/UK"
+        },
+        {
+          "country": "USA"
+        },
+        {
+          "country": "Japan"
+        },
+        {
+          "country": "China"
+        }
+      ],
+      "footnote": "1/3 of seniors 65+ have hearing disorders. By 2030, moderate hearing loss will reach 100M",
+      "barChart": {
+        "title": "China Hearing Impaired Population (10K)",
+        "legendTotal": "Total Hearing Impaired",
+        "legendModerate": "Moderate or Worse Hearing Impaired",
+        "totalTooltip": "{{year}} Total: {{value}} (10K)",
+        "moderateTooltip": "{{year}} Moderate+: {{value}} (10K)"
+      }
+    },
+    "policy": {
+      "title": "Favorable Policies",
+      "desc": "The state has included hearing aids in the key development track of rehabilitation assistive devices, with 14 ministries jointly issuing a special three-year action plan, providing targeted policy support across the entire chain — core technology research, industrial platform building, financial credit support, medical insurance linkage, first-set certification, and talent training system",
+      "items": [
+        {
+          "title": "Industrial Planning Support",
+          "desc": "14 departments jointly issued the \"Three-Year Action Plan for Capacity Expansion and Quality Improvement of Rehabilitation Assistive Devices Industry (2026-2028)\", listing hearing aids as one of the 6-8 core sub-industries to be strengthened, supporting enterprises to break through key technologies and list financing, with the goal of exceeding 500 above-scale rehabilitation assistive enterprises by 2028."
+        },
+        {
+          "title": "Hearing Health Action",
+          "desc": "In 2024, the \"Elderly Hearing Health Promotion Action (2024-2027)\" was launched to advance hearing screening, intervention, and science popularization across all age groups, improving industry service capacity."
+        },
+        {
+          "title": "Centralized Procurement Price Reduction",
+          "desc": "National subsidy policies have been introduced, significantly reducing hearing reconstruction costs for hearing-impaired groups and driving the trend toward universal access to hearing aids and related assistive devices."
+        },
+        {
+          "title": "National Standard Upgrade",
+          "desc": "Starting July 1, 2026, the new national safety standard for hearing aids will be officially implemented, unifying internationally aligned technical testing requirements, regulating industry access, and ensuring product quality and safety."
+        }
+      ]
+    },
+    "awareness": {
+      "title": "Raising National Hearing Health Awareness",
+      "desc": "With the continuous rollout of National Ear Care Day science popularization and the widespread adoption of CDC ear health guidelines, from active hearing screening by seniors to attention to noise-induced hearing loss among young people, national hearing health awareness is undergoing a key shift from \"passive neglect\" to \"active intervention\"",
+      "stats": [
+        {
+          "num": "99.5%+",
+          "label": "Domestic newborn hearing screening coverage",
+          "sub": ""
+        },
+        {
+          "num": "~40%",
+          "label": "Annual hearing screening participation for seniors 65+",
+          "sub": "Less than 20% in 2020 → ~40% in 2026"
+        },
+        {
+          "num": "+18% YoY",
+          "label": "Hearing aid fitting share among young-middle hearing-impaired",
+          "sub": "Year-over-year growth in 2026"
+        }
+      ]
+    },
+    "brand": {
+      "title": "Under Renowned Listed Skyworth Group",
+      "subtitle": "400 Million People Using Skyworth Worldwide · Strong R&D · Strong Product Competitiveness",
+      "items": [
+        {
+          "title": "Full Coverage of All Levels",
+          "desc": "Full-series hearing aids from entry to high-end, covering mild to severe hearing loss"
+        },
+        {
+          "title": "Self-owned R&D and Factory",
+          "desc": "20+ R&D team, 30+ professional production equipment, 50+ national patent technologies"
+        },
+        {
+          "title": "Complete Medical Qualifications",
+          "desc": "Class II medical device registration / production license / operation license — verifiable on official website"
+        },
+        {
+          "title": "Skyworth Group Background",
+          "desc": "Under renowned listed Skyworth Group, full empowerment of R&D, production, supply, and sales resources"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Full-series hearing aid product family portrait"
+        },
+        {
+          "alt": "Self-owned R&D team and production factory"
+        },
+        {
+          "alt": "Medical device qualification certificate wall"
+        },
+        {
+          "alt": "Skyworth Group building"
+        }
+      ],
+      "productCoverage": {
+        "title": "Full Coverage of All Levels · Entry to High-End Available",
+        "slides": [
+          {
+            "label": "Product Family Portrait",
+            "desc": "Full-series hearing aids from entry to high-end"
+          },
+          {
+            "label": "High-end RIC Hearing Aid",
+            "desc": "Smart noise reduction · Chinese fitting"
+          },
+          {
+            "label": "Multi-scenario Solutions",
+            "desc": "Covering mild to severe hearing loss"
+          }
+        ]
+      },
+      "rdFactory": {
+        "title": "Self-owned R&D Team · Self-owned Production Factory",
+        "mainImageAlt": "Factory overview",
+        "stats": [
+          {
+            "unit": "people",
+            "label": "R&D Team",
+            "desc": "Acoustics / Hardware / Algorithm / Fitting full chain"
+          },
+          {
+            "unit": "units",
+            "label": "Production Equipment",
+            "desc": "SMT placement / precision assembly / aging test"
+          },
+          {
+            "unit": "items",
+            "label": "National Patents",
+            "desc": "Hearing aid / acoustic / health wearable patents"
+          }
+        ]
+      },
+      "qualifications": {
+        "title": "Complete Medical Qualifications · Verifiable on Official Website",
+        "sectionSubtitle": "Class II medical device registration / production license / operation license complete",
+        "portrait": [
+          {
+            "name": "Medical Device Registration Certificate 1"
+          },
+          {
+            "name": "Medical Device Registration Certificate 2"
+          },
+          {
+            "name": "Medical Device Registration Certificate 3"
+          },
+          {
+            "name": "Medical Device Registration Certificate 4"
+          },
+          {
+            "name": "Medical Device Registration Certificate 5"
+          }
+        ],
+        "patents": {
+          "title": "National Patent Certification",
+          "desc": "30+ patents in hearing aids, acoustics, smart health wearables, etc.",
+          "imageNote": "Data as of May 2024"
+        }
+      }
+    }
+  },
+  "policy": {
+    "sectionTitle": "Cooperation Policy",
+    "sectionSubtitle": "Comprehensive Bottom-line Support",
+    "storeOpen": {
+      "title": "Full-Process Store Opening Service",
+      "desc": "Comprehensive service support from site selection, decoration, display, staffing to training",
+      "imageAlt": "Store image design",
+      "floorplanAlt": "Cooperative store floor plan layout",
+      "areaLabel": "Area",
+      "storeTypes": [
+        {
+          "type": "Direct Store"
+        },
+        {
+          "type": "Cooperative Store"
+        }
+      ]
+    },
+    "expertGuidance": {
+      "title": "Expert Mentorship · Worry-free In-store Implementation",
+      "desc": "Even with zero experience, you can get started quickly. Hearing experts and brand experts coach both ways, providing hands-on guidance from product knowledge to sales skills. Professional fitters provide in-store support to ensure service and expertise land together",
+      "imageAlt": "Xiaowei Health Tech hearing expert team"
+    },
+    "marketing": {
+      "title": "Omnichannel Marketing Empowerment · Billion-level Brand Momentum",
+      "desc": "Precise traffic + conversion full-link support, online omnichannel traffic support + offline million-level promotion resource matching",
+      "images": [
+        {
+          "alt": "Omnichannel marketing case 1"
+        },
+        {
+          "alt": "Omnichannel marketing case 2"
+        },
+        {
+          "alt": "Omnichannel marketing case 3"
+        },
+        {
+          "alt": "Omnichannel marketing case 4"
+        }
+      ]
+    },
+    "operations": {
+      "title": "Headquarters Operation Support · Precise Traffic to Stores",
+      "desc": "Headquarters provides full-managed new media operation support, covering account positioning, content production, live streaming, private domain承接 — no need for franchisees to operate themselves. Precise traffic is directly directed to partner stores",
+      "images": [
+        {
+          "alt": "Headquarters operation case 1"
+        },
+        {
+          "alt": "Headquarters operation case 2"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "badge": "JOIN XIAOWEI",
+    "title1": "Join Xiaowei",
+    "title2": "Co-create a New Future of Hearing Health",
+    "desc": "National city partner recruitment underway. Skyworth Ecosystem · Xiaowei Health Tech looks forward to joining hands with you to share the dividends of the 100-billion-level hearing health market",
+    "consultBtn": "Consult Online Now",
+    "backToTopBtn": "Back to Top",
+    "hotlineLabel": "Service Hotline",
+    "hotlineValue": "400-116-9566",
+    "investPhoneLabel": "Franchise Marketing Center",
+    "investPhoneValue": "15986810676",
+    "addressLabel": "Company Address",
+    "addressValue": "720, Building A, Xingyi 1993 Digital Fashion Industrial Park, Dalang Street, Longhua District, Shenzhen",
+    "emailLabel": "Company Email",
+    "emailValue": "admin@xiaowe.cc"
+  }
+}

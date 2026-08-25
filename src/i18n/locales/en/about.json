@@ -1,0 +1,451 @@
+{
+  "hero": {
+    "title": "About Xiaowei",
+    "subtitle": "Meet the health technology company under the Skyworth ecosystem"
+  },
+  "skyworthGroup": {
+    "sectionTitle": "Company Profile",
+    "paragraphs": [
+      "Founded in 1988, Skyworth is a globally competitive backbone enterprise in smart home appliances and information technology, ranked 380th on the 2025 China Top 500 Enterprises list.",
+      "The Group operates four major business segments: Smart Home Appliances, Smart System Technology, New Energy, and Modern Services.",
+      "Core activities: R&D, manufacturing and sales of smart TVs, refrigerators, washing machines, air conditioners, kitchen appliances, personal-care small appliances, and Coocaa internet connectivity services; digital smart set-top boxes, smart gateways, smart mesh networking, spatial computing (VR/MR/AI glasses/AR), automotive smart display assemblies, industrial display modules (drones / EV charging piles, etc.), and IoT solutions; new-energy photovoltaics, energy storage, modules and inverters; park property management, logistics services, home-appliance maintenance value-added services, and venture investment."
+    ],
+    "subTitle1": "Skyworth Group",
+    "subTitle2": "Xiaowei Health Tech",
+    "alt": "Skyworth Group headquarters building"
+  },
+  "skyworthStats": [
+    {
+      "unit": "",
+      "label": "Listed companies",
+      "sub": "Skyworth Group (00751.HK) / Skyworth Digital (000810.SZ)"
+    },
+    {
+      "unit": "0,000+",
+      "label": "Employees (approx.)",
+      "sub": ""
+    },
+    {
+      "unit": "",
+      "label": "National Industrial Design Centers",
+      "sub": "13 in Shenzhen total, Skyworth holds 2 — the only company in Shenzhen with 2 national-level centers"
+    },
+    {
+      "unit": "",
+      "label": "ITU Standards (formulated)",
+      "sub": ""
+    },
+    {
+      "unit": "",
+      "label": "Countries and regions served",
+      "sub": ""
+    },
+    {
+      "unit": "B RMB",
+      "label": "Operating revenue",
+      "sub": ""
+    },
+    {
+      "unit": "",
+      "label": "National-level titles",
+      "sub": "National Enterprise Technology Center / National Manufacturing Single Champion / National Specialized, Refined, Distinctive and Innovative (SRDI) Enterprise"
+    },
+    {
+      "unit": "",
+      "label": "National High-Tech Enterprises",
+      "sub": ""
+    }
+  ],
+  "xiaoweiHealth": {
+    "sectionTitle": "Xiaowei Health Tech",
+    "paragraphs": [
+      "Xiaowei Health Technology is a high-tech medical device and service company under the publicly listed Skyworth Group, dedicated to the integrated R&D, production and marketing of smart wearable devices, acoustic and hearing-health systems. The company operates two flagship brands — [SKYWORTH] and [BigSound] — focusing on AI Chinese hearing aids, health smartwatches, kids' phone watches, Bluetooth earphones and other wearable products.",
+      "The company brings together a senior, cross-disciplinary team of leading domestic and international experts in smart hardware, acoustics and audiology, algorithms, and consumer-electronics brand marketing with 20 years of industry experience, and holds nearly a hundred patents in hearing aids, acoustics, and health smart wearables. Guided by a brand mission of building \"healthy, smart\" products with a people-first philosophy, Xiaowei Health leverages technology to power proactive wellness, helping people transform their lifestyles so everyone can enjoy a healthy, beautiful life.",
+      "The company focuses on frontier R&D in health smart wearables, spanning cardio-cerebral health monitoring, early warning and intervention, hearing assistance, hearing acoustics, and artificial intelligence. By aggregating resources from the Tencent Tianlai Lab, Skyworth's R&D and supply-chain capabilities, and Ping An Health services, Xiaowei Health delivers wearable health-system solutions for health-conscious users and people with hearing loss, creating a healthy and beautiful life for every user.",
+      "SKYWORTH kids' phone watches and health early-warning watches have passed review by China Mobile, China Telecom and China Unicom at the group level, and have been added to their national marketing catalogs. Related smart wearable products and services are widely deployed across smart campuses, education, senior care, health community management, and home photovoltaic systems.",
+      "Facing a Chinese hearing-aid market long monopolized by foreign capital in technology, products and channels, \"BigSound\" pioneered the Chinese hearing aid concept, dedicated to developing hearing-aid products better suited to Chinese-language contexts — with more natural sound and better fit for Chinese daily-life scenarios. Committed to breaking the blockade and monopoly of the foreign Big Five hearing-aid groups, BigSound provides Chinese users with comparable professional medical-grade hearing aids, delivering stronger performance, superior listening experience, and better value. The brand aims to build China's national hearing-aid brand, drive hearing-aid adoption, benefit people with hearing loss, and safeguard the health of older adults."
+    ]
+  },
+  "researchDirections": {
+    "items": [
+      {
+        "title": "Hearing Health Research",
+        "tag": "[ Pioneer of AI Chinese Hearing Aids ]",
+        "desc": "The first to propose the Chinese hearing aid concept, crafting hearing aids tuned to Chinese language context, intonation, fitting formulas, and Chinese daily-life scenarios — so Chinese wearers hear more clearly and more comfortably."
+      },
+      {
+        "title": "Wearable Health Research",
+        "tag": "[ Full-spectrum Health Management ]",
+        "desc": "Continuous body monitoring via health smartwatches, with real-time analysis, identification, early warning and service matching powered by AI and a health-service cloud platform — delivering full-spectrum health management for every user."
+      }
+    ]
+  },
+  "culture": {
+    "sectionTitle": "Corporate Culture",
+    "items": [
+      {
+        "label": "Mission",
+        "title": "Caring for Hearing Health / Creating a Better Life",
+        "interpretations": [
+          "Provide users with a full-lifecycle, complete otology solution",
+          "Through hearing, hearing clearly, understanding, and comfortable listening — embrace an aging society, champion filial piety, and build a better society"
+        ]
+      },
+      {
+        "label": "Vision",
+        "title": "Dedicated to becoming the world's most trusted otology technology company",
+        "interpretations": [
+          "In 5 years, every county in China will have a BigSound Hearing Service Center",
+          "In 10 years, rank among the world's top 3 otology brands"
+        ]
+      },
+      {
+        "label": "Values",
+        "title": "Users First · Sincere & Dedicated · Efficient Execution · Pursuit of Excellence",
+        "interpretations": [
+          "Persist in user-centric thinking, insight into user needs, accurate scenario definition, and deliver enjoyable, inspiring and creative services",
+          "Everything for reputation (NPS)",
+          "Passionate and dedicated, knowing and doing good, attentive to detail, sincere service, integrity as the foundation"
+        ]
+      }
+    ]
+  },
+  "honors": {
+    "sectionTitle": "Honors & Qualifications",
+    "row1": [
+      {
+        "name": "Certificate 1"
+      },
+      {
+        "name": "Certificate 2"
+      },
+      {
+        "name": "Certificate 3"
+      },
+      {
+        "name": "Certificate 4"
+      }
+    ],
+    "row2": [
+      {
+        "name": "Certificate 5"
+      },
+      {
+        "name": "Certificate 6"
+      },
+      {
+        "name": "Certificate 7"
+      },
+      {
+        "name": "Certificate 8"
+      },
+      {
+        "name": "Certificate 9"
+      }
+    ]
+  },
+  "team": {
+    "sectionTitle": "Organizational Structure",
+    "coreTeamLabel": "Core Team",
+    "founder": {
+      "name": "Wang Hai",
+      "title": "Founder / Chairman",
+      "details": [
+        "EMBA from China Europe International Business School (CEIBS), Master of Business Administration",
+        "Former VP of Skyworth TV and GM of the Domestic Marketing Business Unit, overseeing Skyworth TV's overall China operations; led teams of thousands to grow Skyworth from 15B to 30B, and from 40B to 50B in sales",
+        "Serial entrepreneur — founded Chefafa, an O2O car-maintenance platform, raising 100M RMB in 3 years before being acquired by Tuhu",
+        "Theorist and practitioner of proactive transformation and deep thinking, with rich expertise in corporate strategy, operations, and management"
+      ]
+    },
+    "members": [
+      {
+        "name": "Zheng Mingchun",
+        "title": "Co-Founder & COO",
+        "details": [
+          "AI Product Manager | User growth and full-lifecycle operations",
+          "Former Skyworth User Operations Director, led the build-out of a 90-million-user system and full-lifecycle management at Skyworth, providing methodology for C-end product and AI model iteration (digital asset growth)",
+          "Former well-known Skyworth TV Product Manager responsible for product planning and launches, with a systematic methodology for user-need insight and cross-channel marketing",
+          "Current Co-Founder of Xiaowei Health, driving AI hearing-aid product definition, experience design, and commercialization roadmap"
+        ]
+      },
+      {
+        "name": "Wen Yefeng",
+        "title": "CMO",
+        "details": [
+          "20 years of brand and marketing experience | All-round player across brand, market and channels",
+          "Former Marketing GM of Thunder Group's Wangxin Tech, turned the shared-computing smart hardware \"Wanke Cloud\" into a JD strategic product and No.1 smart-hardware seller",
+          "Former GM of All-Channel Business Center at Skyworth's Domestic Marketing BU, lead of China Post O2O project, drove Skyworth-Post partnership to over 1B RMB in annual sales",
+          "Current CMO of Xiaowei Health, leading hearing-aid brand, market, marketing and channel build-out"
+        ]
+      },
+      {
+        "name": "Long Haojun",
+        "title": "R&D Director",
+        "details": [
+          "20+ years of electronic audio R&D experience | 9 years of hearing-aid R&D experience",
+          "Former product and R&D lead at a hearing-aid company; products he led sold over a million units; expert in full-chain hearing-aid architecture management",
+          "Former audio and hearing-aid R&D lead at Senlan Electronics and Xinyue Electronics",
+          "Current R&D Director at Xiaowei Health, leading AI hearing-aid core pipeline — from Chinese speech enhancement, noise reduction, feedback suppression, and adaptive algorithms to system-level acoustics and reliability"
+        ]
+      },
+      {
+        "name": "Nan Pengsheng",
+        "title": "Production Director",
+        "details": [
+          "Hearing-aid production lead | Smart wearables / audio manufacturing expert",
+          "Former production lead at a hearing-aid company; 16+ years of smart wearables and audio production management, 5 years of hearing-aid production experience",
+          "Former founder-GM of Thunder Tech, produced audio products for Lenovo, Xinsheng and other brands",
+          "Current Production Director at Xiaowei Health, leading AI hearing-aid manufacturing strategy to ensure high yields"
+        ]
+      }
+    ]
+  },
+  "partners": {
+    "sectionTitle": "Strategic Partners",
+    "strategicInvestment": {
+      "subTitle": "Strategic Investment",
+      "list": [
+        {
+          "name": "Skyworth"
+        },
+        {
+          "name": "Huapengfei Co., Ltd."
+        },
+        {
+          "name": "Haihe"
+        },
+        {
+          "name": "Xinsheng"
+        }
+      ]
+    },
+    "strategicCooperation": {
+      "subTitle": "Strategic Cooperation",
+      "list": [
+        {
+          "name": "Tencent Tianlai"
+        },
+        {
+          "name": "Yinfa Hearing Health"
+        },
+        {
+          "name": "Shenzhen University"
+        },
+        {
+          "name": "China Aging Development Foundation"
+        },
+        {
+          "name": "Sun Yat-sen Memorial Hospital, SYSU"
+        }
+      ]
+    }
+  },
+  "timeline": {
+    "sectionTitle": "Development History",
+    "subtitle": "Pioneering the Chinese hearing aid, creating a better life",
+    "stages": [
+      {
+        "year": "2022",
+        "phase": "Born at the Right Time · A Grand Opening",
+        "items": [
+          {
+            "month": "Mar.",
+            "event": "Spun off and established from Skyworth Group"
+          },
+          {
+            "month": "Apr.",
+            "event": "Secured angel-round financing"
+          },
+          {
+            "month": "Jul.",
+            "event": "Completed the build-out of the hearing-aid R&D team"
+          },
+          {
+            "month": "Aug.",
+            "event": "Fully launched Chinese hearing-aid R&D"
+          },
+          {
+            "month": "Dec.",
+            "event": "Skyworth Health smartwatch released and launched"
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "phase": "National Medical Device Approval · Full Qualifications",
+        "items": [
+          {
+            "month": "May",
+            "event": "Completed the first Chinese hearing-aid prototype"
+          },
+          {
+            "month": "Jul.",
+            "event": "Self-developed smart fitting software [Xiaowei Miaoyin] launched"
+          },
+          {
+            "month": "Sep.",
+            "event": "Obtained the first Class II Medical Device Registration Certificate and Production License"
+          },
+          {
+            "month": "Nov.",
+            "event": "Obtained the 2nd Class II Medical Device Product Registration Certificate"
+          },
+          {
+            "month": "Nov.",
+            "event": "Reached strategic partnership with Tencent Tianlai on hearing algorithms"
+          },
+          {
+            "month": "Dec.",
+            "event": "Obtained the 3rd Class II Medical Device Product Registration Certificate"
+          },
+          {
+            "month": "Dec.",
+            "event": "Self-developed remote-fitting system launched"
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "phase": "High-Tech Certification · Honors Crowned",
+        "items": [
+          {
+            "month": "Apr.",
+            "event": "BigSound Chinese hearing aid recognized by Shandong ENT Hospital clinical testing"
+          },
+          {
+            "month": "May",
+            "event": "\"Sound Prescription\" professional fitting system [BigSound Hearing] launched"
+          },
+          {
+            "month": "Jun.",
+            "event": "First BigSound Hearing Service Center opened"
+          },
+          {
+            "month": "Jul.",
+            "event": "BigSound Chinese hearing aid BTE and neck-hanging styles released"
+          },
+          {
+            "month": "Aug.",
+            "event": "Strategic partnership with China Aging Development Foundation"
+          },
+          {
+            "month": "Sep.",
+            "event": "Participated in the national key R&D project \"Prevention and Treatment of Common and Multiple Diseases\""
+          },
+          {
+            "month": "Sep.",
+            "event": "Awarded Innovative SME certification"
+          },
+          {
+            "month": "Oct.",
+            "event": "Awarded Tech-based SME certification"
+          },
+          {
+            "month": "Nov.",
+            "event": "BigSound Chinese hearing aid new production line put into operation"
+          },
+          {
+            "month": "Nov.",
+            "event": "Chinese hearing aid recognized by Shenzhen age-friendly renovation project"
+          },
+          {
+            "month": "Dec.",
+            "event": "Strategic partnership with Guangdong Province Disabled Persons' Foundation, donating 950,000 RMB in Chinese hearing aids"
+          },
+          {
+            "month": "Dec.",
+            "event": "Awarded \"National High-Tech Enterprise\" certification"
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "phase": "Strategic Layout · Full Sail Ahead",
+        "items": [
+          {
+            "month": "Jan.",
+            "event": "Launched non-inferiority study of BigSound Chinese hearing aid with Sun Yat-sen Memorial Hospital, SYSU"
+          },
+          {
+            "month": "Jan.",
+            "event": "Ultra-high-power Chinese hearing aid BR series obtained National Class II Medical Device Registration Certificate"
+          },
+          {
+            "month": "Mar.",
+            "event": "Received an order of tens of thousands of Chinese hearing aids from a senior-care customer"
+          },
+          {
+            "month": "Apr.",
+            "event": "Chinese hearing aid shined at Skyworth 4.8 Global Customer Conference"
+          },
+          {
+            "month": "May",
+            "event": "Major launch into Shenzhen Eastern (Longgang) Smart Assistive Device Experience Center"
+          },
+          {
+            "month": "Jun.",
+            "event": "Body-worn hearing aid launched"
+          },
+          {
+            "month": "Jul.",
+            "event": "Supported the 12th National Paralympic and Special Olympic Games"
+          },
+          {
+            "month": "Sep.",
+            "event": "Major appearance at 2025 China International Assistive Devices & Rehabilitation Expo"
+          },
+          {
+            "month": "Oct.",
+            "event": "Officially selected for the national \"2025 Senior Products Promotion Catalog\""
+          },
+          {
+            "month": "Oct.",
+            "event": "Officially selected as a Shenzhen Annual Tech-Assisted Disability Typical Case"
+          },
+          {
+            "month": "Nov.",
+            "event": "Co-organized Anhui Ear Health Academic Symposium"
+          }
+        ]
+      },
+      {
+        "year": "2026",
+        "phase": "AI Chinese Hearing Aid · A Quantum Leap",
+        "items": [
+          {
+            "month": "Jan.",
+            "event": "Awarded Excellence Award at Guangdong-Hong Kong-Macao Greater Bay Area Entrepreneurship Competition"
+          },
+          {
+            "month": "Feb.",
+            "event": "Major launch into Luohu District Silver-Hair Tech Product Showcase Center"
+          },
+          {
+            "month": "Mar.",
+            "event": "Major appearance at 2026 China (Guangzhou) International Home Medical, Rehabilitation, Nursing & Assistive Devices Expo"
+          },
+          {
+            "month": "Mar.",
+            "event": "Officially entered the National Assistive Devices South China Regional Center"
+          },
+          {
+            "month": "Apr.",
+            "event": "Attended the Assistive Device Innovation Symposium (Suzhou Station)"
+          },
+          {
+            "month": "May",
+            "event": "Officially launched into Xinyue Health's \"Dawangjing Smart Senior Care Experience Center\""
+          },
+          {
+            "month": "Jun.",
+            "event": "Shenzhen Disabled Persons' Federation issued a document supporting Xiaowei's 2026 Shenzhen Hearing Health Public Welfare Initiative"
+          },
+          {
+            "month": "Jul.",
+            "event": "Xiaowei Global Market Partner and China Thousand-City, Ten-Thousand-Store Plan officially launched"
+          }
+        ]
+      }
+    ]
+  }
+}

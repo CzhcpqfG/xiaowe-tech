@@ -1,0 +1,128 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于小维",
+    "product": "AI 中文助听器",
+    "wearable": "健康智能穿戴",
+    "invest": "招商加盟",
+    "careers": "人才招聘",
+    "news": "资讯中心"
+  },
+  "header": {
+    "logoAlt": "小维健康科技",
+    "logoAriaLabel": "小维健康科技",
+    "langSwitcherAria": "切换语言",
+    "langTitle": "语言",
+    "comingSoon": "即将上线",
+    "menu": {
+      "open": "打开菜单",
+      "close": "关闭菜单",
+      "title": "菜单"
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "关于小维",
+      "company": "企业简介",
+      "culture": "企业文化",
+      "team": "核心团队",
+      "history": "发展历程",
+      "honors": "荣誉资质"
+    },
+    "invest": {
+      "title": "招商加盟",
+      "prospects": "行业前景",
+      "advantages": "项目优势",
+      "policy": "合作政策",
+      "faq": "常见问题"
+    },
+    "careers": {
+      "title": "人才招聘",
+      "tech": "技术研发类",
+      "manufacturing": "生产制造类",
+      "marketing": "市场营销类",
+      "admin": "人事行政财务类"
+    },
+    "products": {
+      "title": "产品中心"
+    },
+    "service": {
+      "title": "选购指南",
+      "onlineConsult": "立即在线咨询",
+      "phoneConsult": "立即致电咨询",
+      "downloadBrochure": "下载产品手册"
+    },
+    "news": {
+      "title": "资讯中心",
+      "company": "公司资讯",
+      "product": "产品资讯",
+      "industry": "行业资讯"
+    },
+    "follow": {
+      "title": "关注我们",
+      "scanFollow": "扫码关注{{label}}",
+      "close": "关闭"
+    },
+    "shop": {
+      "hearingService": "大声听力服务中心",
+      "tmall": "天猫",
+      "jd": "京东",
+      "pdd": "拼多多",
+      "dewu": "得物"
+    },
+    "legal": {
+      "contact": "联系我们",
+      "terms": "法律声明",
+      "report": "监督举报"
+    },
+    "contact": {
+      "title": "联系我们",
+      "hotline": "服务咨询热线",
+      "onlineService": "在线客服:",
+      "email": "企业邮箱:",
+      "address": "公司地址:",
+      "stores": "直营门店:"
+    },
+    "copyright": "© {{year}} 小维健康科技（深圳）有限公司 版权所有"
+  },
+  "floatingTools": {
+    "onlineConsult": "在线咨询",
+    "backToTop": "回到顶部"
+  },
+  "alt": {
+    "logo": "小维健康科技 logo",
+    "heroInvest": "招商加盟主视觉",
+    "heroAbout": "关于我们主视觉",
+    "heroProduct": "AI 中文助听器主视觉",
+    "heroWearable": "健康智能穿戴主视觉",
+    "heroCareers": "人才招聘主视觉",
+    "heroNews": "新闻资讯主视觉",
+    "qrcode": "微信公众号二维码"
+  },
+  "common": {
+    "tbd": "待定",
+    "loading": "加载中...",
+    "empty": "暂无内容",
+    "more": "查看更多",
+    "detail": "查看详情",
+    "consult": "咨询电话",
+    "retailPrice": "零售指导价",
+    "emptyProduct": "该分类下暂无产品, 敬请期待...",
+    "back": "返回",
+    "close": "关闭",
+    "confirm": "确认",
+    "cancel": "取消"
+  },
+  "newsCategory": {
+    "company-news": "公司资讯",
+    "product-news": "产品资讯",
+    "industry-news": "行业资讯"
+  },
+  "notFound": {
+    "logoAlt": "小维健康科技",
+    "imageAlt": "页面未找到",
+    "message1": "很抱歉,您访问的页面不存在!",
+    "message2": "请仔细检查您输入的网址是否正确。",
+    "backHome": "返回首页"
+  }
+}

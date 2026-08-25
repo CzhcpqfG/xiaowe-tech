@@ -1,0 +1,100 @@
+{
+  "videoEntry": {
+    "ariaLabel": "点击全屏播放企业宣传片"
+  },
+  "heroProducts": {
+    "hearingAid": {
+      "title": "AI 中文助听器",
+      "subtitle": "AI Chinese Hearing Aid · 聆听爱的声音",
+      "description": "首个提出中文助听器理念，搭载 5 核异构芯片与中文增强算法 2.0，针对中文语境打造更符合中国人佩戴的助听器。",
+      "techs": {
+        "chip": {
+          "title": "5 核异构芯片",
+          "desc": "12nm 全数字处理器"
+        },
+        "algorithm": {
+          "title": "中文增强算法 2.0",
+          "desc": "提升中文识别率"
+        },
+        "aiPower": {
+          "title": "AI 算力 15 亿次/秒",
+          "desc": "乘累加运算"
+        },
+        "htt": {
+          "title": "HTT 非平稳降噪",
+          "desc": "算法"
+        },
+        "agc": {
+          "title": "AI AGC 自动增益",
+          "desc": "控制"
+        },
+        "mic": {
+          "title": "65dB SNR 阵列麦",
+          "desc": "高保真拾音"
+        }
+      }
+    },
+    "watch": {
+      "title": "健康智能手表",
+      "subtitle": "Health Smartwatch · 全方位健康管理",
+      "description": "基于健康智能手表进行连续身体监测，通过 AI + 健康服务云平台提供心率、血氧、体温等全方位健康管理服务。",
+      "techs": {
+        "heartRate": {
+          "title": "心率监测",
+          "desc": "24h 连续监测"
+        },
+        "sport": {
+          "title": "运动健康",
+          "desc": "多模式记录"
+        },
+        "bloodOxygen": {
+          "title": "血氧监测",
+          "desc": "SpO₂ 实时"
+        },
+        "geofence": {
+          "title": "电子围栏",
+          "desc": "安全守护"
+        },
+        "temperature": {
+          "title": "体温测量",
+          "desc": "精准测温"
+        },
+        "location": {
+          "title": "一键定位",
+          "desc": "GPS+北斗"
+        }
+      }
+    },
+    "earphone": {
+      "title": "智能蓝牙耳机",
+      "subtitle": "Bluetooth Earphones · HiFi 无损音质",
+      "description": "多重场景声学方案，声道定向传音 + 声波聚焦消音，搭配 HiFi 无损音质与深度降噪，打造沉浸式聆听体验。",
+      "techs": {
+        "scenes": {
+          "title": "多重场景声",
+          "desc": "智能切换"
+        },
+        "directional": {
+          "title": "声道定向传音",
+          "desc": "定向拾音"
+        },
+        "hifi": {
+          "title": "HiFi 无损音质",
+          "desc": "高保真还原"
+        },
+        "sbc": {
+          "title": "SBC 音频解码",
+          "desc": "低延迟传输"
+        },
+        "focus": {
+          "title": "声波聚焦消音",
+          "desc": "环境降噪"
+        },
+        "anc": {
+          "title": "深度降噪",
+          "desc": "ANC 主动"
+        }
+      }
+    }
+  }
+}

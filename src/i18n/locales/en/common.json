@@ -1,0 +1,128 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "product": "AI Hearing Aids",
+    "wearable": "Health Wearables",
+    "invest": "Partnership",
+    "careers": "Careers",
+    "news": "News"
+  },
+  "header": {
+    "logoAlt": "Xiaowei Health Tech logo",
+    "logoAriaLabel": "Xiaowei Health Tech",
+    "langSwitcherAria": "Switch language",
+    "langTitle": "Language",
+    "comingSoon": "Coming soon",
+    "menu": {
+      "open": "Open menu",
+      "close": "Close menu",
+      "title": "Menu"
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "About",
+      "company": "Company Intro",
+      "culture": "Culture",
+      "team": "Team",
+      "history": "History",
+      "honors": "Honors"
+    },
+    "invest": {
+      "title": "Partnership",
+      "prospects": "Industry Outlook",
+      "advantages": "Advantages",
+      "policy": "Cooperation Policy",
+      "faq": "FAQ"
+    },
+    "careers": {
+      "title": "Careers",
+      "tech": "Tech & R&D",
+      "manufacturing": "Manufacturing",
+      "marketing": "Marketing",
+      "admin": "HR & Admin"
+    },
+    "products": {
+      "title": "Products"
+    },
+    "service": {
+      "title": "Shopping Guide",
+      "onlineConsult": "Consult online now",
+      "phoneConsult": "Call us now",
+      "downloadBrochure": "Download brochure"
+    },
+    "news": {
+      "title": "News",
+      "company": "Company News",
+      "product": "Product News",
+      "industry": "Industry News"
+    },
+    "follow": {
+      "title": "Follow Us",
+      "scanFollow": "Scan to follow {{label}}",
+      "close": "Close"
+    },
+    "shop": {
+      "hearingService": "Dasound Hearing Service Center",
+      "tmall": "Tmall",
+      "jd": "JD",
+      "pdd": "Pinduoduo",
+      "dewu": "Dewu"
+    },
+    "legal": {
+      "contact": "Contact Us",
+      "terms": "Terms",
+      "report": "Report"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "hotline": "Service Hotline",
+      "onlineService": "Online service:",
+      "email": "Email:",
+      "address": "Address:",
+      "stores": "Stores:"
+    },
+    "copyright": "© {{year}} Xiaowei Health Technology (Shenzhen) Co., Ltd. All rights reserved."
+  },
+  "floatingTools": {
+    "onlineConsult": "Online consult",
+    "backToTop": "Back to top"
+  },
+  "alt": {
+    "logo": "Xiaowei Health Tech logo",
+    "heroInvest": "Partnership hero visual",
+    "heroAbout": "About us hero visual",
+    "heroProduct": "AI Hearing Aid hero visual",
+    "heroWearable": "Health Wearable hero visual",
+    "heroCareers": "Careers hero visual",
+    "heroNews": "News hero visual",
+    "qrcode": "WeChat official account QR code"
+  },
+  "common": {
+    "tbd": "TBD",
+    "loading": "Loading...",
+    "empty": "No content",
+    "more": "View more",
+    "detail": "View details",
+    "consult": "Consult phone",
+    "retailPrice": "Retail price",
+    "emptyProduct": "No products in this category yet, stay tuned...",
+    "back": "Back",
+    "close": "Close",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "newsCategory": {
+    "company-news": "Company News",
+    "product-news": "Product News",
+    "industry-news": "Industry News"
+  },
+  "notFound": {
+    "logoAlt": "Xiaowei Health Tech",
+    "imageAlt": "Page not found",
+    "message1": "Sorry, the page you are looking for does not exist!",
+    "message2": "Please double-check the URL you entered.",
+    "backHome": "Back to home"
+  }
+}
