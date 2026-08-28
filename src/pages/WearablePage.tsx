@@ -64,12 +64,13 @@ function ProductCard({ product }: { product: WearableProduct }) {
       className="group bg-white border border-ink-200 flex flex-col h-full transition-all duration-[400ms] ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-[4px] hover:border-brand-green hover:shadow-[0_18px_40px_rgba(0,0,0,0.10)]"
     >
       {/* 产品图区域 - 1:1 正方形, 占满卡片宽度
-          浅绿底 (#f0f7f2) 衬托白底产品图, 与白卡身形成层次 (保持不动) */}
-      <div className="w-full aspect-square bg-[#f0f7f2] flex items-center justify-center overflow-hidden p-[20px] lg:p-[28px]">
+          object-cover 铺满裁剪, 保证所有卡片图片比例统一 */}
+      <div className="w-full aspect-square overflow-hidden">
         <img
           src={IMAGES[product.imageKey]}
           alt={t(product.altKey)}
-          className="w-full h-full object-contain transition-transform duration-[700ms] ease-[cubic-bezier(0.4,0,0.2,1)] group-hover:scale-[1.04]"
+          loading="lazy"
+          className="w-full h-full object-cover transition-transform duration-[700ms] ease-[cubic-bezier(0.4,0,0.2,1)] group-hover:scale-[1.04]"
         />
       </div>
 
